@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=b63af18b">
 </head>
 <body>
 <a class="skip" href="#results">ข้ามไปที่ผลลัพธ์</a>
@@ -23,6 +23,14 @@
 
 <main class="wrap layout">
   <form id="spend" class="panel" autocomplete="off" onsubmit="return false">
+    <fieldset>
+      <legend>สะสมไมล์กับ <span class="unit" id="airsum">ทุกสายการบิน</span>
+        <button type="button" id="airclear" class="link" hidden>ล้าง</button></legend>
+      <label class="sr" for="airq">ค้นหาสายการบิน</label>
+      <input id="airq" type="search" placeholder="ค้นหา เช่น การบินไทย, KrisFlyer">
+      <div class="airs" id="airs" role="group" aria-label="สายการบิน"></div>
+    </fieldset>
+
     <fieldset>
       <legend>ยอดใช้จ่ายต่อเดือน <span class="unit">บาท</span></legend>
       <div id="cats"></div>
@@ -51,7 +59,9 @@
     <div class="results-head">
       <h2>อันดับไมล์ต่อปี</h2>
       <p id="meta" class="muted"></p>
+      <button type="button" id="share" class="link">คัดลอกลิงก์ผลลัพธ์</button>
     </div>
+    <aside id="tip" class="tip" hidden></aside>
     <ol id="list" class="list"></ol>
     <details id="nomiles" class="nomiles">
       <summary></summary>
@@ -64,7 +74,7 @@
   <p>ข้อมูลรวบรวมจากเว็บไซต์ธนาคาร ณ พฤศจิกายน 2569 · อัตราอาจเปลี่ยนและมีเพดานต่อเดือน ตรวจเงื่อนไขกับธนาคารก่อนสมัคร</p>
 </footer>
 
-<script src="cards.js"></script>
-<script src="app.js"></script>
+<script src="cards.js?v=b63af18b"></script>
+<script src="app.js?v=b63af18b"></script>
 </body>
 </html>
