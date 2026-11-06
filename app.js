@@ -20,6 +20,7 @@ const BANKS = {
   GSB: ["ออมสิน", "#eb198d"],
   ICBC: ["ไอซีบีซี", "#b5121b"],
   BOC: ["แบงก์ออฟไชน่า", "#a6192e"],
+  AEON: ["อิออน", "#b6007a"],
 };
 
 const $ = (s) => document.querySelector(s);
@@ -83,7 +84,7 @@ function item(c, i, miles) {
     <button type="button" aria-expanded="${opened.has(c.id)}">
       <span class="rank">${miles ? i + 1 : ""}</span>
       <span class="art${c.image ? " has-img" : ""}" style="--c:${color}" aria-hidden="true">${c.image ? `<img src="${esc(c.image)}" alt="" loading="lazy" onerror="this.parentElement.classList.remove('has-img');this.remove()">` : ""}</span>
-      <span class="name"><b>${esc(c.name)}${c.inviteOnly ? '<span class="tag">เชิญเท่านั้น</span>' : ""}</b><span>${bankTh} · ${esc(c.network)}</span></span>
+      <span class="name"><b>${esc(c.name)}${c.inviteOnly ? '<span class="tag">เชิญเท่านั้น</span>' : ""}${c.kind === "cash" ? '<span class="tag">บัตรกดเงินสด</span>' : ""}${c.discontinued ? '<span class="tag">ยกเลิกแล้ว</span>' : ""}</b><span>${bankTh} · ${esc(c.network)}</span></span>
       <span class="score">${score}</span>
     </button>
     <div class="detail">

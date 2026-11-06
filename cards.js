@@ -25,14 +25,15 @@ window.CARDS = [
    "AirAsia Rewards",
    "FlyerBonus"
   ],
-  "caps": "1 K Point/25 บาท; ROP 4:1 (AirAsia 2:1, FlyerBonus 4:1); ยกเว้นบางร้านออนไลน์/ต่างประเทศ",
+  "caps": "1 K Point/25 บาท; ROP 4:1 (ขั้นต่ำ 20,000 K Point), AirAsia 2:1, FlyerBonus 4:1 = 100 บาท/ไมล์ ROP; ไม่ได้แต้ม EEA/จีน/ร้านออนไลน์ต่างประเทศ/DCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer/Asia Miles",
   "perks": [
    "ห้องรับรองตามแพ็กเกจ",
    "ประกันเดินทางสูงสุด 8 ล้าน",
    "ที่ปรึกษาการลงทุน"
   ],
   "url": "https://www.kasikornbank.com/thewisdom",
-  "confidence": "medium"
+  "confidence": "medium",
+  "image": null
  },
  {
   "id": "kbank-the-premier",
@@ -60,13 +61,14 @@ window.CARDS = [
    "AirAsia Rewards",
    "FlyerBonus"
   ],
-  "caps": "1 K Point/25 บาท; ROP 4:1",
+  "caps": "1 K Point/25 บาท; ROP 4:1 (ขั้นต่ำ 20,000 K Point), AirAsia 2:1, FlyerBonus 4:1 = 100 บาท/ไมล์ ROP; ไม่ได้แต้ม EEA/จีน/ร้านออนไลน์ต่างประเทศ/DCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer/Asia Miles",
   "perks": [
    "Miracle Lounge 2 ครั้ง/ปี",
    "ประกันเดินทาง 6 ล้าน"
   ],
   "url": "https://www.kasikornbank.com/th/personal/creditcard/pages/index.aspx",
-  "confidence": "medium"
+  "confidence": "medium",
+  "image": null
  },
  {
   "id": "kbank-the-passion",
@@ -75,36 +77,41 @@ window.CARDS = [
   "nameTh": null,
   "network": "Visa/Mastercard Signature",
   "annualFee": 4000,
-  "feeNote": "ค่าธรรมเนียมรายปี 4,000 ยกเว้นเมื่อใช้ครบ 12 ครั้ง/ปี",
-  "minIncome": null,
+  "feeNote": "4,000 ฟรีปีแรก ยกเว้นเมื่อใช้ 200,000/ปี หรือ 12 ครั้ง/ปี",
+  "minIncome": 70000,
   "inviteOnly": false,
   "reward": "points",
   "earn": {
-   "base": null,
-   "dining": null,
-   "online": null,
-   "overseas": null,
-   "travel": null,
-   "grocery": null,
-   "fuel": null
+   "base": 50,
+   "dining": 50,
+   "online": 50,
+   "overseas": 33.3,
+   "travel": 50,
+   "grocery": 50,
+   "fuel": 50
   },
   "cashback": null,
-  "milesPartners": [],
-  "caps": "ในไทย 2 คะแนน/25 บาท ต่างประเทศ 3 คะแนน/25 บาท; แหล่งข้อมูลบอกแลกไมล์ไม่ได้",
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "AirAsia Rewards",
+   "FlyerBonus"
+  ],
+  "caps": "ในไทย 2 K Point/25 บาท (สูงสุด 200,000 บาท/รอบบิล ส่วนเกิน 1 คะแนน), ต่างประเทศสกุลเงินต่างประเทศ 3 K Point/25 บาท; ROP 4:1 (แก้จากเดิมที่ว่าแลกไมล์ไม่ได้); ไม่ได้แต้ม EEA/จีน/DCC",
   "perks": [
    "Miracle Lounge 2 ครั้ง/ปี"
   ],
   "url": "https://www.kasikornbank.com/th/personal/creditcard/pages/the-passion.aspx",
-  "confidence": "low"
+  "confidence": "medium",
+  "image": null
  },
  {
   "id": "kbank-platinum",
   "bank": "KBank",
-  "name": "Platinum",
+  "name": "Mastercard Platinum",
   "nameTh": null,
-  "network": "Visa/Mastercard Platinum",
-  "annualFee": 0,
-  "feeNote": "ฟรีปีแรก ปีถัดไปฟรีเมื่อใช้ 12 ครั้ง/ปี",
+  "network": "Mastercard Platinum",
+  "annualFee": 1250,
+  "feeNote": "1,250 ฟรีปีแรก ยกเว้นเมื่อใช้ 20,000/ปี หรือ 12 ครั้ง/ปี",
   "minIncome": 15000,
   "inviteOnly": false,
   "reward": "points",
@@ -123,10 +130,11 @@ window.CARDS = [
    "AirAsia Rewards",
    "FlyerBonus"
   ],
-  "caps": "1 K Point/25 บาท; ROP 4:1",
+  "caps": "1 K Point/25 บาท; ROP 4:1 (ขั้นต่ำ 20,000 K Point), AirAsia 2:1, FlyerBonus 4:1 = 100 บาท/ไมล์ ROP; ไม่ได้แต้ม EEA/จีน/ร้านออนไลน์ต่างประเทศ/DCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer/Asia Miles; ร้านอาหารสูงสุด 3 K Point/25 บาทตามเงื่อนไข (ไม่นับ)",
   "perks": [],
-  "url": "https://www.kasikornbank.com/th/personal/creditcard/pages/platinum.aspx",
-  "confidence": "low"
+  "url": "https://www.chaimiles.com/credit-cards/kbank-mastercard-platinum",
+  "confidence": "medium",
+  "image": null
  },
  {
   "id": "kbank-jcb",
@@ -135,7 +143,7 @@ window.CARDS = [
   "nameTh": null,
   "network": "co-brand/JCB",
   "annualFee": 1050,
-  "feeNote": "จากเว็บ chaimiles",
+  "feeNote": "จากเว็บ chaimiles (ไม่ได้ยืนยันกับธนาคาร)",
   "minIncome": null,
   "inviteOnly": false,
   "reward": "points",
@@ -154,10 +162,11 @@ window.CARDS = [
    "AirAsia Rewards",
    "FlyerBonus"
   ],
-  "caps": "1 K Point/25 บาท; ROP 4:1 (ไม่ได้ยืนยันกับธนาคาร)",
+  "caps": "1 K Point/25 บาท; ROP 4:1 (ขั้นต่ำ 20,000 K Point), AirAsia 2:1, FlyerBonus 4:1 = 100 บาท/ไมล์ ROP; ไม่ได้แต้ม EEA/จีน/ร้านออนไลน์ต่างประเทศ/DCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer/Asia Miles",
   "perks": [],
   "url": "https://www.chaimiles.com/credit-cards/kbank-jcb",
-  "confidence": "low"
+  "confidence": "low",
+  "image": null
  },
  {
   "id": "kbank-amway",
@@ -166,7 +175,7 @@ window.CARDS = [
   "nameTh": null,
   "network": "co-brand/JCB",
   "annualFee": 1050,
-  "feeNote": "จากเว็บ chaimiles",
+  "feeNote": "จากเว็บ chaimiles (ไม่ได้ยืนยันกับธนาคาร)",
   "minIncome": null,
   "inviteOnly": false,
   "reward": "points",
@@ -185,10 +194,11 @@ window.CARDS = [
    "AirAsia Rewards",
    "FlyerBonus"
   ],
-  "caps": "1 K Point/25 บาท; ROP 4:1 (ไม่ได้ยืนยันกับธนาคาร)",
+  "caps": "1 K Point/25 บาท; ROP 4:1 (ขั้นต่ำ 20,000 K Point), AirAsia 2:1, FlyerBonus 4:1 = 100 บาท/ไมล์ ROP; ไม่ได้แต้ม EEA/จีน/ร้านออนไลน์ต่างประเทศ/DCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer/Asia Miles",
   "perks": [],
   "url": "https://www.chaimiles.com/credit-cards/kbank-amway",
-  "confidence": "low"
+  "confidence": "low",
+  "image": null
  },
  {
   "id": "kbank-bdms",
@@ -197,7 +207,7 @@ window.CARDS = [
   "nameTh": null,
   "network": "co-brand/JCB",
   "annualFee": 1050,
-  "feeNote": "จากเว็บ chaimiles",
+  "feeNote": "จากเว็บ chaimiles (ไม่ได้ยืนยันกับธนาคาร)",
   "minIncome": null,
   "inviteOnly": false,
   "reward": "points",
@@ -216,10 +226,11 @@ window.CARDS = [
    "AirAsia Rewards",
    "FlyerBonus"
   ],
-  "caps": "1 K Point/25 บาท; ROP 4:1 (ไม่ได้ยืนยันกับธนาคาร)",
+  "caps": "1 K Point/25 บาท; ROP 4:1 (ขั้นต่ำ 20,000 K Point), AirAsia 2:1, FlyerBonus 4:1 = 100 บาท/ไมล์ ROP; ไม่ได้แต้ม EEA/จีน/ร้านออนไลน์ต่างประเทศ/DCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer/Asia Miles",
   "perks": [],
   "url": "https://www.chaimiles.com/credit-cards/kbank-bdms",
-  "confidence": "low"
+  "confidence": "low",
+  "image": null
  },
  {
   "id": "kbank-cga-sft",
@@ -228,7 +239,7 @@ window.CARDS = [
   "nameTh": null,
   "network": "co-brand/JCB",
   "annualFee": 1050,
-  "feeNote": "จากเว็บ chaimiles",
+  "feeNote": "จากเว็บ chaimiles (ไม่ได้ยืนยันกับธนาคาร)",
   "minIncome": null,
   "inviteOnly": false,
   "reward": "points",
@@ -247,10 +258,11 @@ window.CARDS = [
    "AirAsia Rewards",
    "FlyerBonus"
   ],
-  "caps": "1 K Point/25 บาท; ROP 4:1 (ไม่ได้ยืนยันกับธนาคาร)",
+  "caps": "1 K Point/25 บาท; ROP 4:1 (ขั้นต่ำ 20,000 K Point), AirAsia 2:1, FlyerBonus 4:1 = 100 บาท/ไมล์ ROP; ไม่ได้แต้ม EEA/จีน/ร้านออนไลน์ต่างประเทศ/DCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer/Asia Miles",
   "perks": [],
   "url": "https://www.chaimiles.com/credit-cards/kbank-cga-sft",
-  "confidence": "low"
+  "confidence": "low",
+  "image": null
  },
  {
   "id": "ktc-x-visa-signature",
@@ -264,13 +276,13 @@ window.CARDS = [
   "inviteOnly": false,
   "reward": "points",
   "earn": {
-   "base": null,
-   "dining": null,
-   "online": null,
-   "overseas": null,
-   "travel": null,
-   "grocery": null,
-   "fuel": null
+   "base": 100,
+   "dining": 100,
+   "online": 100,
+   "overseas": 100,
+   "travel": 100,
+   "grocery": 100,
+   "fuel": 100
   },
   "cashback": null,
   "milesPartners": [
@@ -278,13 +290,14 @@ window.CARDS = [
    "Asia Miles",
    "AirAsia Rewards"
   ],
-  "caps": "3x KTC Forever ในหมวดที่ร่วมรายการ; อัตราแลกไมล์ไม่ยืนยัน",
+  "caps": "1 KTC FOREVER/25 บาท; ROP 4:1 (ตั้งแต่ 1 ต.ค. 2568 ตามประกาศ KTC), Asia Miles 4:1, AirAsia 2:1 = 100 บาท/ไมล์; ไม่ได้แต้ม EEA/จีน/NZ/ญี่ปุ่นบาง MCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer; x3 (33 บาท/ไมล์) เฉพาะเมื่อใช้ครบทุก 600,000 บาท ในร้านอาหาร ช้อปปิ้ง ท่องเที่ยวในไทย และสกุลเงินต่างประเทศ จึงไม่นับในตัวเลข earn",
   "perks": [
    "Miracle Lounge 2 ครั้ง/ปี",
    "ประกันเดินทาง"
   ],
   "url": "https://www.ktc.co.th/en/credit-card/generic/ktc-x-visa-signature",
-  "confidence": "low"
+  "confidence": "medium",
+  "image": "img/ktc-x-visa-signature.webp"
  },
  {
   "id": "ktc-x-world-rewards-mastercard",
@@ -298,13 +311,13 @@ window.CARDS = [
   "inviteOnly": false,
   "reward": "points",
   "earn": {
-   "base": null,
-   "dining": null,
-   "online": null,
-   "overseas": null,
-   "travel": null,
-   "grocery": null,
-   "fuel": null
+   "base": 100,
+   "dining": 100,
+   "online": 100,
+   "overseas": 100,
+   "travel": 100,
+   "grocery": 100,
+   "fuel": 100
   },
   "cashback": null,
   "milesPartners": [
@@ -312,13 +325,14 @@ window.CARDS = [
    "Asia Miles",
    "AirAsia Rewards"
   ],
-  "caps": "3x KTC Forever ในหมวดที่ร่วมรายการ; อัตราแลกไมล์ไม่ยืนยัน",
+  "caps": "1 KTC FOREVER/25 บาท; ROP 4:1 (ตั้งแต่ 1 ต.ค. 2568 ตามประกาศ KTC), Asia Miles 4:1, AirAsia 2:1 = 100 บาท/ไมล์; ไม่ได้แต้ม EEA/จีน/NZ/ญี่ปุ่นบาง MCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer; x3 (33 บาท/ไมล์) เฉพาะเมื่อใช้ครบทุก 600,000 บาท ในร้านอาหาร ช้อปปิ้ง ท่องเที่ยวในไทย และสกุลเงินต่างประเทศ จึงไม่นับในตัวเลข earn",
   "perks": [
    "Miracle Lounge 2 ครั้ง/ปี",
    "ประกันเดินทาง"
   ],
   "url": "https://www.ktc.co.th/en/credit-card/generic/ktc-x-world-rewards-mastercard",
-  "confidence": "low"
+  "confidence": "medium",
+  "image": "img/ktc-x-world-rewards-mastercard.webp"
  },
  {
   "id": "ktc-visa-signature",
@@ -332,13 +346,13 @@ window.CARDS = [
   "inviteOnly": false,
   "reward": "points",
   "earn": {
-   "base": null,
-   "dining": null,
-   "online": null,
-   "overseas": null,
-   "travel": null,
-   "grocery": null,
-   "fuel": null
+   "base": 100,
+   "dining": 100,
+   "online": 100,
+   "overseas": 50,
+   "travel": 100,
+   "grocery": 100,
+   "fuel": 100
   },
   "cashback": null,
   "milesPartners": [
@@ -346,10 +360,11 @@ window.CARDS = [
    "Asia Miles",
    "AirAsia Rewards"
   ],
-  "caps": null,
+  "caps": "1 KTC FOREVER/25 บาท; ROP 4:1 (ตั้งแต่ 1 ต.ค. 2568 ตามประกาศ KTC), Asia Miles 4:1, AirAsia 2:1 = 100 บาท/ไมล์; ไม่ได้แต้ม EEA/จีน/NZ/ญี่ปุ่นบาง MCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer; สกุลเงินต่างประเทศ 2 คะแนน/25 บาท (โปรถึง 31 ธ.ค. 2569) = 50 บาท/ไมล์",
   "perks": [],
   "url": "https://www.ktc.co.th/en/credit-card/generic/ktc-visa-signature",
-  "confidence": "low"
+  "confidence": "medium",
+  "image": "img/ktc-visa-signature.webp"
  },
  {
   "id": "ktc-world-rewards-mastercard",
@@ -363,13 +378,13 @@ window.CARDS = [
   "inviteOnly": false,
   "reward": "points",
   "earn": {
-   "base": null,
-   "dining": null,
-   "online": null,
-   "overseas": null,
-   "travel": null,
-   "grocery": null,
-   "fuel": null
+   "base": 100,
+   "dining": 100,
+   "online": 100,
+   "overseas": 50,
+   "travel": 100,
+   "grocery": 100,
+   "fuel": 100
   },
   "cashback": null,
   "milesPartners": [
@@ -377,10 +392,11 @@ window.CARDS = [
    "Asia Miles",
    "AirAsia Rewards"
   ],
-  "caps": null,
+  "caps": "1 KTC FOREVER/25 บาท; ROP 4:1 (ตั้งแต่ 1 ต.ค. 2568 ตามประกาศ KTC), Asia Miles 4:1, AirAsia 2:1 = 100 บาท/ไมล์; ไม่ได้แต้ม EEA/จีน/NZ/ญี่ปุ่นบาง MCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer; สกุลเงินต่างประเทศ 2 คะแนน/25 บาท (โปรถึง 31 ธ.ค. 2569) = 50 บาท/ไมล์",
   "perks": [],
   "url": "https://www.ktc.co.th/en/credit-card/generic/ktc-world-rewards-mastercard",
-  "confidence": "low"
+  "confidence": "medium",
+  "image": "img/ktc-world-rewards-mastercard.webp"
  },
  {
   "id": "ktc-jcb-ultimate",
@@ -394,20 +410,25 @@ window.CARDS = [
   "inviteOnly": false,
   "reward": "points",
   "earn": {
-   "base": null,
-   "dining": null,
-   "online": null,
-   "overseas": null,
-   "travel": null,
-   "grocery": null,
-   "fuel": null
+   "base": 100,
+   "dining": 100,
+   "online": 100,
+   "overseas": 50,
+   "travel": 100,
+   "grocery": 100,
+   "fuel": 100
   },
   "cashback": null,
-  "milesPartners": [],
-  "caps": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "Asia Miles",
+   "AirAsia Rewards"
+  ],
+  "caps": "1 KTC FOREVER/25 บาท; ROP 4:1 (ตั้งแต่ 1 ต.ค. 2568 ตามประกาศ KTC), Asia Miles 4:1, AirAsia 2:1 = 100 บาท/ไมล์; ไม่ได้แต้ม EEA/จีน/NZ/ญี่ปุ่นบาง MCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer; สกุลเงินต่างประเทศ 2 คะแนน/25 บาท (โปรถึง 31 ธ.ค. 2569) = 50 บาท/ไมล์",
   "perks": [],
   "url": "https://www.ktc.co.th/en/credit-card/generic/ktc-jcb-ultimate",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/ktc-jcb-ultimate.webp"
  },
  {
   "id": "ktc-unionpay-diamond",
@@ -421,20 +442,25 @@ window.CARDS = [
   "inviteOnly": false,
   "reward": "points",
   "earn": {
-   "base": null,
-   "dining": null,
-   "online": null,
-   "overseas": null,
-   "travel": null,
-   "grocery": null,
-   "fuel": null
+   "base": 100,
+   "dining": 100,
+   "online": 100,
+   "overseas": 50,
+   "travel": 100,
+   "grocery": 100,
+   "fuel": 100
   },
   "cashback": null,
-  "milesPartners": [],
-  "caps": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "Asia Miles",
+   "AirAsia Rewards"
+  ],
+  "caps": "1 KTC FOREVER/25 บาท; ROP 4:1 (ตั้งแต่ 1 ต.ค. 2568 ตามประกาศ KTC), Asia Miles 4:1, AirAsia 2:1 = 100 บาท/ไมล์; ไม่ได้แต้ม EEA/จีน/NZ/ญี่ปุ่นบาง MCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer; สกุลเงินต่างประเทศ 2 คะแนน/25 บาท (โปรถึง 31 ธ.ค. 2569) = 50 บาท/ไมล์",
   "perks": [],
   "url": "https://www.ktc.co.th/en/credit-card/generic/ktc-unionpay-diamond",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/ktc-unionpay-diamond.png"
  },
  {
   "id": "ktc-visa-platinum",
@@ -448,13 +474,13 @@ window.CARDS = [
   "inviteOnly": false,
   "reward": "points",
   "earn": {
-   "base": null,
-   "dining": null,
-   "online": null,
-   "overseas": null,
-   "travel": null,
-   "grocery": null,
-   "fuel": null
+   "base": 100,
+   "dining": 100,
+   "online": 100,
+   "overseas": 100,
+   "travel": 100,
+   "grocery": 100,
+   "fuel": 100
   },
   "cashback": null,
   "milesPartners": [
@@ -462,10 +488,11 @@ window.CARDS = [
    "Asia Miles",
    "AirAsia Rewards"
   ],
-  "caps": "1 KTC Forever/25 บาท; อัตราแลกไมล์ไม่ยืนยัน",
+  "caps": "1 KTC FOREVER/25 บาท; ROP 4:1 (ตั้งแต่ 1 ต.ค. 2568 ตามประกาศ KTC), Asia Miles 4:1, AirAsia 2:1 = 100 บาท/ไมล์; ไม่ได้แต้ม EEA/จีน/NZ/ญี่ปุ่นบาง MCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer",
   "perks": [],
   "url": "https://www.ktc.co.th/en/credit-card/generic/ktc-visa-platinum",
-  "confidence": "low"
+  "confidence": "medium",
+  "image": "img/ktc-visa-platinum.webp"
  },
  {
   "id": "ktc-platinum-mastercard",
@@ -479,13 +506,13 @@ window.CARDS = [
   "inviteOnly": false,
   "reward": "points",
   "earn": {
-   "base": null,
-   "dining": null,
-   "online": null,
-   "overseas": null,
-   "travel": null,
-   "grocery": null,
-   "fuel": null
+   "base": 100,
+   "dining": 100,
+   "online": 100,
+   "overseas": 100,
+   "travel": 100,
+   "grocery": 100,
+   "fuel": 100
   },
   "cashback": null,
   "milesPartners": [
@@ -493,10 +520,11 @@ window.CARDS = [
    "Asia Miles",
    "AirAsia Rewards"
   ],
-  "caps": "1 KTC Forever/25 บาท; อัตราแลกไมล์ไม่ยืนยัน",
+  "caps": "1 KTC FOREVER/25 บาท; ROP 4:1 (ตั้งแต่ 1 ต.ค. 2568 ตามประกาศ KTC), Asia Miles 4:1, AirAsia 2:1 = 100 บาท/ไมล์; ไม่ได้แต้ม EEA/จีน/NZ/ญี่ปุ่นบาง MCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer",
   "perks": [],
   "url": "https://www.ktc.co.th/en/credit-card/generic/ktc-platinum-mastercard",
-  "confidence": "low"
+  "confidence": "medium",
+  "image": "img/ktc-platinum-mastercard.webp"
  },
  {
   "id": "ktc-jcb-platinum",
@@ -510,20 +538,25 @@ window.CARDS = [
   "inviteOnly": false,
   "reward": "points",
   "earn": {
-   "base": null,
-   "dining": null,
-   "online": null,
-   "overseas": null,
-   "travel": null,
-   "grocery": null,
-   "fuel": null
+   "base": 100,
+   "dining": 100,
+   "online": 100,
+   "overseas": 100,
+   "travel": 100,
+   "grocery": 100,
+   "fuel": 100
   },
   "cashback": null,
-  "milesPartners": [],
-  "caps": "1 KTC Forever/25 บาท; อัตราแลกไมล์ไม่ยืนยัน",
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "Asia Miles",
+   "AirAsia Rewards"
+  ],
+  "caps": "1 KTC FOREVER/25 บาท; ROP 4:1 (ตั้งแต่ 1 ต.ค. 2568 ตามประกาศ KTC), Asia Miles 4:1, AirAsia 2:1 = 100 บาท/ไมล์; ไม่ได้แต้ม EEA/จีน/NZ/ญี่ปุ่นบาง MCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer; JCB x2 เฉพาะญี่ปุ่น (โปรถึง 31 ธ.ค. 2569)",
   "perks": [],
   "url": "https://www.ktc.co.th/en/credit-card/generic/ktc-jcb-platinum",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/ktc-jcb-platinum.webp"
  },
  {
   "id": "ktc-unionpay-platinum",
@@ -537,20 +570,25 @@ window.CARDS = [
   "inviteOnly": false,
   "reward": "points",
   "earn": {
-   "base": null,
-   "dining": null,
-   "online": null,
-   "overseas": null,
-   "travel": null,
-   "grocery": null,
-   "fuel": null
+   "base": 100,
+   "dining": 100,
+   "online": 100,
+   "overseas": 100,
+   "travel": 100,
+   "grocery": 100,
+   "fuel": 100
   },
   "cashback": null,
-  "milesPartners": [],
-  "caps": "1 KTC Forever/25 บาท; อัตราแลกไมล์ไม่ยืนยัน",
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "Asia Miles",
+   "AirAsia Rewards"
+  ],
+  "caps": "1 KTC FOREVER/25 บาท; ROP 4:1 (ตั้งแต่ 1 ต.ค. 2568 ตามประกาศ KTC), Asia Miles 4:1, AirAsia 2:1 = 100 บาท/ไมล์; ไม่ได้แต้ม EEA/จีน/NZ/ญี่ปุ่นบาง MCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer; UnionPay x2 เฉพาะ HK/มาเก๊า/ไต้หวัน (โปรถึง 31 ธ.ค. 2569)",
   "perks": [],
   "url": "https://www.ktc.co.th/en/credit-card/generic/ktc-unionpay-platinum",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/ktc-unionpay-platinum.webp"
  },
  {
   "id": "ktc-gold-mastercard",
@@ -574,10 +612,11 @@ window.CARDS = [
   },
   "cashback": null,
   "milesPartners": [],
-  "caps": "ทอง: 10 คะแนน=1 ไมล์ (แหล่งข้อมูลรอง)",
+  "caps": "ไม่ยืนยันอัตราไมล์: ประกาศ KTC ว่า 4:1 ทุกช่องทาง ส่วนแหล่งเก่าว่า Gold 10:1; ไม่เติมตัวเลข",
   "perks": [],
   "url": "https://www.ktc.co.th/en/credit-card/generic/ktc-gold-mastercard",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/ktc-gold-mastercard.webp"
  },
  {
   "id": "ktc-fico-visa-platinum",
@@ -591,13 +630,13 @@ window.CARDS = [
   "inviteOnly": false,
   "reward": "points",
   "earn": {
-   "base": null,
-   "dining": null,
-   "online": null,
-   "overseas": null,
-   "travel": null,
-   "grocery": null,
-   "fuel": null
+   "base": 100,
+   "dining": 100,
+   "online": 100,
+   "overseas": 100,
+   "travel": 100,
+   "grocery": 100,
+   "fuel": 100
   },
   "cashback": null,
   "milesPartners": [
@@ -605,10 +644,11 @@ window.CARDS = [
    "Asia Miles",
    "AirAsia Rewards"
   ],
-  "caps": null,
+  "caps": "1 KTC FOREVER/25 บาท; ROP 4:1 (ตั้งแต่ 1 ต.ค. 2568 ตามประกาศ KTC), Asia Miles 4:1, AirAsia 2:1 = 100 บาท/ไมล์; ไม่ได้แต้ม EEA/จีน/NZ/ญี่ปุ่นบาง MCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer",
   "perks": [],
   "url": "https://www.chaimiles.com/credit-cards/ktc-fico-visa-platinum",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/ktc-fico-visa-platinum.webp"
  },
  {
   "id": "ktc-rop-visa-infinite",
@@ -634,14 +674,15 @@ window.CARDS = [
   "milesPartners": [
    "Royal Orchid Plus"
   ],
-  "caps": "1 คะแนน ROP/25 บาท, 2 คะแนน=1 ไมล์; 3x ในหมวดร่วมรายการ ต่อ 600,000 (เงื่อนไขไม่ชัด); ไม่ได้แต้มจาก EEA/จีน/NZ/ญี่ปุ่นบางร้าน",
+  "caps": "1 คะแนน ROP/25 บาท, 2 คะแนน=1 ไมล์; 3x ในหมวดร่วมรายการ ต่อ 600,000 ; ไม่ได้แต้มจาก EEA/จีน/NZ/ญี่ปุ่นบางร้าน | KTC ROP 2:1 ไม่กระทบจากการปรับเป็น 4:1 (ยืนยันโดยประกาศ KTC 1 ส.ค. 2568)",
   "perks": [
    "Priority Pass 6 ครั้ง/ปี",
    "ประกันเดินทาง",
    "PA 24 ชม."
   ],
   "url": "https://www.ktc.co.th/en/credit-card/invitation-card/ktc-royal-orchid-plus-visa-infinite",
-  "confidence": "medium"
+  "confidence": "medium",
+  "image": "img/ktc-rop-visa-infinite.webp"
  },
  {
   "id": "ktc-rop-world-mastercard",
@@ -667,13 +708,14 @@ window.CARDS = [
   "milesPartners": [
    "Royal Orchid Plus"
   ],
-  "caps": "1 คะแนน ROP/25 บาท, 2 คะแนน=1 ไมล์; 3x ในหมวดร่วมรายการ (เงื่อนไขไม่ชัด)",
+  "caps": "1 คะแนน ROP/25 บาท, 2 คะแนน=1 ไมล์; 3x ในหมวดร่วมรายการ | KTC ROP 2:1 ไม่กระทบจากการปรับเป็น 4:1 (ยืนยันโดยประกาศ KTC 1 ส.ค. 2568)",
   "perks": [
    "Priority Pass",
    "ประกันเดินทาง"
   ],
   "url": "https://www.ktc.co.th/en/credit-card/invitation-card/ktc-royal-orchid-plus-world-mastercard",
-  "confidence": "medium"
+  "confidence": "medium",
+  "image": "img/ktc-rop-world-mastercard.png"
  },
  {
   "id": "ktc-rop-visa-platinum",
@@ -699,13 +741,14 @@ window.CARDS = [
   "milesPartners": [
    "Royal Orchid Plus"
   ],
-  "caps": "ต่างประเทศ 2 คะแนน/25 บาท; ไม่ได้แต้ม EEA/จีน/NZ/ญี่ปุ่นบางร้าน",
+  "caps": "ต่างประเทศ 2 คะแนน/25 บาท; ไม่ได้แต้ม EEA/จีน/NZ/ญี่ปุ่นบางร้าน | KTC ROP 2:1 ไม่กระทบจากการปรับเป็น 4:1 (ยืนยันโดยประกาศ KTC 1 ส.ค. 2568)",
   "perks": [
    "ประกันอุบัติเหตุ 8 ล้าน",
    "ผ่อน 0% 10 เดือน"
   ],
   "url": "https://www.ktc.co.th/credit-card/generic/ktc-royal-orchid-plus-visa-platinum",
-  "confidence": "medium"
+  "confidence": "medium",
+  "image": "img/ktc-rop-visa-platinum.webp"
  },
  {
   "id": "ktc-rop-platinum-mastercard",
@@ -731,10 +774,11 @@ window.CARDS = [
   "milesPartners": [
    "Royal Orchid Plus"
   ],
-  "caps": "2 คะแนน ROP=1 ไมล์",
+  "caps": "2 คะแนน ROP=1 ไมล์ | KTC ROP 2:1 ไม่กระทบจากการปรับเป็น 4:1 (ยืนยันโดยประกาศ KTC 1 ส.ค. 2568)",
   "perks": [],
   "url": "https://www.ktc.co.th/en/credit-card/co-branded/ktc-royal-orchid-plus-platinum-mastercard",
-  "confidence": "medium"
+  "confidence": "medium",
+  "image": "img/ktc-rop-platinum-mastercard.webp"
  },
  {
   "id": "ktc-visa-infinite",
@@ -742,19 +786,19 @@ window.CARDS = [
   "name": "KTC Visa Infinite",
   "nameTh": null,
   "network": "Visa Infinite",
-  "annualFee": null,
-  "feeNote": null,
+  "annualFee": 5350,
+  "feeNote": "5,000+VAT บัตรเรียนเชิญ ยกเว้นตามยอดที่ KTC กำหนด",
   "minIncome": null,
   "inviteOnly": true,
   "reward": "points",
   "earn": {
-   "base": null,
-   "dining": null,
-   "online": null,
-   "overseas": null,
-   "travel": null,
-   "grocery": null,
-   "fuel": null
+   "base": 100,
+   "dining": 100,
+   "online": 100,
+   "overseas": 100,
+   "travel": 100,
+   "grocery": 100,
+   "fuel": 100
   },
   "cashback": null,
   "milesPartners": [
@@ -762,12 +806,13 @@ window.CARDS = [
    "Asia Miles",
    "AirAsia Rewards"
   ],
-  "caps": null,
+  "caps": "1 KTC FOREVER/25 บาท; ROP 4:1 (ตั้งแต่ 1 ต.ค. 2568 ตามประกาศ KTC), Asia Miles 4:1, AirAsia 2:1 = 100 บาท/ไมล์; ไม่ได้แต้ม EEA/จีน/NZ/ญี่ปุ่นบาง MCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer; x3 (33 บาท/ไมล์) เฉพาะเมื่อใช้ครบทุก 600,000 บาท ในร้านอาหาร ช้อปปิ้ง ท่องเที่ยวในไทย และสกุลเงินต่างประเทศ จึงไม่นับในตัวเลข earn",
   "perks": [
    "Priority Pass 6 ครั้ง/ปี"
   ],
   "url": "https://www.ktc.co.th/en/credit-card/invitation/ktc",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/ktc-visa-infinite.webp"
  },
  {
   "id": "ktc-world-mastercard",
@@ -781,13 +826,13 @@ window.CARDS = [
   "inviteOnly": true,
   "reward": "points",
   "earn": {
-   "base": null,
-   "dining": null,
-   "online": null,
-   "overseas": null,
-   "travel": null,
-   "grocery": null,
-   "fuel": null
+   "base": 100,
+   "dining": 100,
+   "online": 100,
+   "overseas": 100,
+   "travel": 100,
+   "grocery": 100,
+   "fuel": 100
   },
   "cashback": null,
   "milesPartners": [
@@ -795,12 +840,13 @@ window.CARDS = [
    "Asia Miles",
    "AirAsia Rewards"
   ],
-  "caps": null,
+  "caps": "1 KTC FOREVER/25 บาท; ROP 4:1 (ตั้งแต่ 1 ต.ค. 2568 ตามประกาศ KTC), Asia Miles 4:1, AirAsia 2:1 = 100 บาท/ไมล์; ไม่ได้แต้ม EEA/จีน/NZ/ญี่ปุ่นบาง MCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer; x3 (33 บาท/ไมล์) เฉพาะเมื่อใช้ครบทุก 600,000 บาท ในร้านอาหาร ช้อปปิ้ง ท่องเที่ยวในไทย และสกุลเงินต่างประเทศ จึงไม่นับในตัวเลข earn",
   "perks": [
    "Priority Pass 6 ครั้ง/ปี"
   ],
   "url": "https://www.ktc.co.th/en/credit-card/invitation-card/ktc-world-mastercard",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/ktc-world-mastercard.webp"
  },
  {
   "id": "ktc-fico-visa-infinite",
@@ -814,13 +860,13 @@ window.CARDS = [
   "inviteOnly": true,
   "reward": "points",
   "earn": {
-   "base": null,
-   "dining": null,
-   "online": null,
-   "overseas": null,
-   "travel": null,
-   "grocery": null,
-   "fuel": null
+   "base": 100,
+   "dining": 100,
+   "online": 100,
+   "overseas": 100,
+   "travel": 100,
+   "grocery": 100,
+   "fuel": 100
   },
   "cashback": null,
   "milesPartners": [
@@ -828,12 +874,13 @@ window.CARDS = [
    "Asia Miles",
    "AirAsia Rewards"
   ],
-  "caps": null,
+  "caps": "1 KTC FOREVER/25 บาท; ROP 4:1 (ตั้งแต่ 1 ต.ค. 2568 ตามประกาศ KTC), Asia Miles 4:1, AirAsia 2:1 = 100 บาท/ไมล์; ไม่ได้แต้ม EEA/จีน/NZ/ญี่ปุ่นบาง MCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer; x3 (33 บาท/ไมล์) เฉพาะเมื่อใช้ครบทุก 600,000 บาท ในร้านอาหาร ช้อปปิ้ง ท่องเที่ยวในไทย และสกุลเงินต่างประเทศ จึงไม่นับในตัวเลข earn",
   "perks": [
    "Priority Pass 6 ครั้ง/ปี"
   ],
   "url": "https://www.ktc.co.th/en/credit-card/invitation/ktc",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/ktc-fico-visa-infinite.webp"
  },
  {
   "id": "ktc-unionpay-asia-prestige-diamond",
@@ -860,7 +907,8 @@ window.CARDS = [
   "caps": null,
   "perks": [],
   "url": "https://www.ktc.co.th/en/credit-card/invitation/ktc",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/ktc-unionpay-asia-prestige-diamond.webp"
  },
  {
   "id": "scb-prime",
@@ -884,10 +932,11 @@ window.CARDS = [
   },
   "cashback": null,
   "milesPartners": [],
-  "caps": null,
+  "caps": "ไม่อยู่ในแคตตาล็อก CardX ปัจจุบัน ตรวจสอบไม่ได้; ไม่เติมตัวเลข",
   "perks": [],
   "url": "https://www.cardx.co.th/th-TH/credit-card/catalog",
-  "confidence": "low"
+  "confidence": "low",
+  "image": null
  },
  {
   "id": "scb-first",
@@ -911,10 +960,11 @@ window.CARDS = [
   },
   "cashback": null,
   "milesPartners": [],
-  "caps": null,
+  "caps": "ไม่อยู่ในแคตตาล็อก CardX ปัจจุบัน ตรวจสอบไม่ได้; ไม่เติมตัวเลข",
   "perks": [],
   "url": "https://www.cardx.co.th/th-TH/credit-card/catalog",
-  "confidence": "low"
+  "confidence": "low",
+  "image": null
  },
  {
   "id": "scb-private-banking",
@@ -938,10 +988,11 @@ window.CARDS = [
   },
   "cashback": null,
   "milesPartners": [],
-  "caps": null,
+  "caps": "ไม่อยู่ในแคตตาล็อก CardX ปัจจุบัน ตรวจสอบไม่ได้; ไม่เติมตัวเลข",
   "perks": [],
   "url": "https://www.cardx.co.th/th-TH/credit-card/catalog",
-  "confidence": "low"
+  "confidence": "low",
+  "image": null
  },
  {
   "id": "scb-cardx-up2me",
@@ -965,10 +1016,11 @@ window.CARDS = [
   },
   "cashback": null,
   "milesPartners": [],
-  "caps": "POINTX 25 บาท=1 คะแนน สูงสุด X3",
+  "caps": "เลือก 1 หมวดรับ POINTX สูงสุด X3 (X5 เดือนเกิด); POINTX 25 บาท=1 คะแนน; chaimiles (พ.ย. 2569) ระบุว่า POINTX โอนไปสายการบินไม่ได้ (ใช้แทนเงินสด/คูปอง; FAQ POINTX ว่าแลกไมล์ไม่ได้ในแอป POINTX); แหล่งเก่า my-best ว่า My Travel 17 บาท/ไมล์ ROP แต่น่าจะล้าสมัย",
   "perks": [],
   "url": "https://www.cardx.co.th/th-TH/credit-card/catalog",
-  "confidence": "low"
+  "confidence": "medium",
+  "image": "img/scb-cardx-up2me.png"
  },
  {
   "id": "scb-cardx-beyond",
@@ -977,7 +1029,7 @@ window.CARDS = [
   "nameTh": null,
   "network": "Mastercard",
   "annualFee": 5000,
-  "feeNote": "ปีถัดไป 5,000",
+  "feeNote": "ฟรีปีแรก ปีถัดไป 5,000 ยกเว้นเมื่อใช้ 100,000/ปี",
   "minIncome": 70000,
   "inviteOnly": false,
   "reward": "points",
@@ -992,10 +1044,11 @@ window.CARDS = [
   },
   "cashback": null,
   "milesPartners": [],
-  "caps": null,
+  "caps": "X3 หมวดร้านอาหารเดือนเกิด; POINTX 25 บาท=1 คะแนน; chaimiles (พ.ย. 2569) ระบุว่า POINTX โอนไปสายการบินไม่ได้ (ใช้แทนเงินสด/คูปอง; FAQ POINTX ว่าแลกไมล์ไม่ได้ในแอป POINTX); แหล่งเก่า my-best ว่า My Travel 17 บาท/ไมล์ ROP แต่น่าจะล้าสมัย",
   "perks": [],
   "url": "https://www.cardx.co.th/th-TH/credit-card/catalog",
-  "confidence": "low"
+  "confidence": "medium",
+  "image": "img/scb-cardx-beyond.png"
  },
  {
   "id": "scb-cardx-ultra-platinum",
@@ -1004,7 +1057,7 @@ window.CARDS = [
   "nameTh": null,
   "network": "Visa Platinum",
   "annualFee": 5000,
-  "feeNote": "ปีถัดไป 5,000",
+  "feeNote": "ฟรีปีแรก ปีถัดไป 5,000 ยกเว้นเมื่อใช้ 100,000/ปี",
   "minIncome": 15000,
   "inviteOnly": false,
   "reward": "points",
@@ -1019,10 +1072,11 @@ window.CARDS = [
   },
   "cashback": null,
   "milesPartners": [],
-  "caps": "POINTX สูงสุด X5",
+  "caps": "X5 ร้านอาหาร/ห้าง/ความบันเทิง; POINTX 25 บาท=1 คะแนน; chaimiles (พ.ย. 2569) ระบุว่า POINTX โอนไปสายการบินไม่ได้ (ใช้แทนเงินสด/คูปอง; FAQ POINTX ว่าแลกไมล์ไม่ได้ในแอป POINTX); แหล่งเก่า my-best ว่า My Travel 17 บาท/ไมล์ ROP แต่น่าจะล้าสมัย",
   "perks": [],
   "url": "https://www.cardx.co.th/th-TH/credit-card/catalog",
-  "confidence": "low"
+  "confidence": "medium",
+  "image": "img/scb-cardx-ultra-platinum.png"
  },
  {
   "id": "scb-cardx-family-plus",
@@ -1051,7 +1105,8 @@ window.CARDS = [
   "caps": "คืนเงิน 1-5%",
   "perks": [],
   "url": "https://www.cardx.co.th/th-TH/credit-card/catalog",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/scb-cardx-family-plus.png"
  },
  {
   "id": "scb-cardx-jcb-platinum",
@@ -1075,10 +1130,11 @@ window.CARDS = [
   },
   "cashback": null,
   "milesPartners": [],
-  "caps": "ต่างประเทศ 3% cashback (แหล่งรอง)",
+  "caps": "ต่างประเทศ 3% cashback (แหล่งรอง); POINTX 25 บาท=1 คะแนน; chaimiles (พ.ย. 2569) ระบุว่า POINTX โอนไปสายการบินไม่ได้ (ใช้แทนเงินสด/คูปอง; FAQ POINTX ว่าแลกไมล์ไม่ได้ในแอป POINTX); แหล่งเก่า my-best ว่า My Travel 17 บาท/ไมล์ ROP แต่น่าจะล้าสมัย",
   "perks": [],
   "url": "https://www.cardx.co.th/th-TH/credit-card/catalog",
-  "confidence": "low"
+  "confidence": "medium",
+  "image": "img/scb-cardx-jcb-platinum.png"
  },
  {
   "id": "scb-cardx-my-travel",
@@ -1087,7 +1143,7 @@ window.CARDS = [
   "nameTh": null,
   "network": "Mastercard",
   "annualFee": 3000,
-  "feeNote": "3,000",
+  "feeNote": "3,000 เรียกเก็บทันที ยกเว้นปีถัดไปเมื่อใช้ 300,000/ปี",
   "minIncome": 50000,
   "inviteOnly": false,
   "reward": "points",
@@ -1102,10 +1158,11 @@ window.CARDS = [
   },
   "cashback": null,
   "milesPartners": [],
-  "caps": "สะสมไมล์ (อัตราไม่ยืนยัน)",
+  "caps": "POINTX 25 บาท=1 คะแนน; chaimiles (พ.ย. 2569) ระบุว่า POINTX โอนไปสายการบินไม่ได้ (ใช้แทนเงินสด/คูปอง; FAQ POINTX ว่าแลกไมล์ไม่ได้ในแอป POINTX); แหล่งเก่า my-best ว่า My Travel 17 บาท/ไมล์ ROP แต่น่าจะล้าสมัย",
   "perks": [],
   "url": "https://www.cardx.co.th/th-TH/credit-card/catalog",
-  "confidence": "low"
+  "confidence": "medium",
+  "image": "img/scb-cardx-my-travel.png"
  },
  {
   "id": "scb-cardx-king-power",
@@ -1129,10 +1186,11 @@ window.CARDS = [
   },
   "cashback": null,
   "milesPartners": [],
-  "caps": null,
+  "caps": "King Power Platinum (Mastercard และ Visa) รับ POINTX สูงสุด X5 ที่ King Power; POINTX 25 บาท=1 คะแนน; chaimiles (พ.ย. 2569) ระบุว่า POINTX โอนไปสายการบินไม่ได้ (ใช้แทนเงินสด/คูปอง; FAQ POINTX ว่าแลกไมล์ไม่ได้ในแอป POINTX); แหล่งเก่า my-best ว่า My Travel 17 บาท/ไมล์ ROP แต่น่าจะล้าสมัย",
   "perks": [],
   "url": "https://www.cardx.co.th/th-TH/credit-card/catalog",
-  "confidence": "low"
+  "confidence": "medium",
+  "image": "img/scb-cardx-king-power.png"
  },
  {
   "id": "scb-cardx-toyota-platinum",
@@ -1156,10 +1214,1733 @@ window.CARDS = [
   },
   "cashback": null,
   "milesPartners": [],
-  "caps": null,
+  "caps": "POINTX X2 เติมน้ำมัน; POINTX 25 บาท=1 คะแนน; chaimiles (พ.ย. 2569) ระบุว่า POINTX โอนไปสายการบินไม่ได้ (ใช้แทนเงินสด/คูปอง; FAQ POINTX ว่าแลกไมล์ไม่ได้ในแอป POINTX); แหล่งเก่า my-best ว่า My Travel 17 บาท/ไมล์ ROP แต่น่าจะล้าสมัย",
   "perks": [],
   "url": "https://www.cardx.co.th/th-TH/credit-card/catalog",
-  "confidence": "low"
+  "confidence": "medium",
+  "image": "img/scb-cardx-toyota-platinum.png"
+ },
+ {
+  "id": "kbank-the-wisdom-infinite",
+  "bank": "KBank",
+  "name": "The Wisdom Infinite",
+  "nameTh": null,
+  "network": "Visa Infinite (invite)",
+  "annualFee": 0,
+  "feeNote": "ฟรีตลอดชีพ",
+  "minIncome": null,
+  "inviteOnly": true,
+  "reward": "points",
+  "earn": {
+   "base": 100,
+   "dining": 100,
+   "online": 100,
+   "overseas": 100,
+   "travel": 100,
+   "grocery": 100,
+   "fuel": 100
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "AirAsia Rewards",
+   "FlyerBonus"
+  ],
+  "caps": "1 K Point/25 บาท; ROP 4:1 (ขั้นต่ำ 20,000 K Point), AirAsia 2:1, FlyerBonus 4:1 = 100 บาท/ไมล์ ROP; ไม่ได้แต้ม EEA/จีน/ร้านออนไลน์ต่างประเทศ/DCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer/Asia Miles",
+  "perks": [
+   "ประกันเดินทาง 35 ล้าน",
+   "ที่ปรึกษาการลงทุน",
+   "ตู้นิรภัย"
+  ],
+  "url": "https://www.chaimiles.com/credit-cards/kbank-the-wisdom-infinite",
+  "confidence": "medium",
+  "image": null
+ },
+ {
+  "id": "kbank-the-wisdom-private-banking-infinite",
+  "bank": "KBank",
+  "name": "The Wisdom Private Banking Infinite",
+  "nameTh": null,
+  "network": "Visa Infinite (invite)",
+  "annualFee": 0,
+  "feeNote": "ฟรีตลอดชีพ",
+  "minIncome": null,
+  "inviteOnly": true,
+  "reward": "points",
+  "earn": {
+   "base": 100,
+   "dining": 100,
+   "online": 100,
+   "overseas": 100,
+   "travel": 100,
+   "grocery": 100,
+   "fuel": 100
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "AirAsia Rewards",
+   "FlyerBonus"
+  ],
+  "caps": "1 K Point/25 บาท; ROP 4:1 (ขั้นต่ำ 20,000 K Point), AirAsia 2:1, FlyerBonus 4:1 = 100 บาท/ไมล์ ROP; ไม่ได้แต้ม EEA/จีน/ร้านออนไลน์ต่างประเทศ/DCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer/Asia Miles",
+  "perks": [],
+  "url": "https://www.chaimiles.com/credit-cards/kbank-the-wisdom-private-banking-infinite",
+  "confidence": "medium",
+  "image": null
+ },
+ {
+  "id": "kbank-plustinum",
+  "bank": "KBank",
+  "name": "PLUSTINUM",
+  "nameTh": null,
+  "network": "Visa Platinum",
+  "annualFee": 1250,
+  "feeNote": "1,250 ฟรีปีแรก ยกเว้นเมื่อใช้ 20,000/ปี หรือ 12 ครั้ง/ปี",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": 100,
+   "dining": 100,
+   "online": 100,
+   "overseas": 100,
+   "travel": 100,
+   "grocery": 100,
+   "fuel": 100
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "AirAsia Rewards",
+   "FlyerBonus"
+  ],
+  "caps": "1 K Point/25 บาท; ROP 4:1 (ขั้นต่ำ 20,000 K Point), AirAsia 2:1, FlyerBonus 4:1 = 100 บาท/ไมล์ ROP; ไม่ได้แต้ม EEA/จีน/ร้านออนไลน์ต่างประเทศ/DCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer/Asia Miles; ร้านอาหารสูงสุด 3 K Point/25 บาทตามเงื่อนไข",
+  "perks": [],
+  "url": "https://www.chaimiles.com/credit-cards/kbank-plustinum",
+  "confidence": "medium",
+  "image": null
+ },
+ {
+  "id": "kbank-shopee",
+  "bank": "KBank",
+  "name": "Shopee",
+  "nameTh": null,
+  "network": "Visa",
+  "annualFee": 1050,
+  "feeNote": "1,050 ฟรีปีแรก ยกเว้นเมื่อใช้ 20,000/ปี หรือ 12 ครั้ง/ปี",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": 100,
+   "dining": 100,
+   "online": 50,
+   "overseas": 100,
+   "travel": 100,
+   "grocery": 100,
+   "fuel": 100
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "AirAsia Rewards",
+   "FlyerBonus"
+  ],
+  "caps": "1 K Point/25 บาท; ROP 4:1 (ขั้นต่ำ 20,000 K Point), AirAsia 2:1, FlyerBonus 4:1 = 100 บาท/ไมล์ ROP; ไม่ได้แต้ม EEA/จีน/ร้านออนไลน์ต่างประเทศ/DCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer/Asia Miles; ออนไลน์ร้านอื่น 2 K Point/25 บาท (online=50), Shopee Thailand 10 เท่า; K Point หมดอายุ 3 ปี",
+  "perks": [],
+  "url": "https://www.chaimiles.com/credit-cards/kbank-shopee",
+  "confidence": "medium",
+  "image": null
+ },
+ {
+  "id": "kbank-one-siam-visa-infinite",
+  "bank": "KBank",
+  "name": "One Siam Visa Infinite",
+  "nameTh": null,
+  "network": "Visa Infinite (invite)",
+  "annualFee": 30000,
+  "feeNote": "30,000 ฟรีปีแรก ยกเว้นเมื่อใช้ 1,000,000/ปี",
+  "minIncome": null,
+  "inviteOnly": true,
+  "reward": "points",
+  "earn": {
+   "base": 100,
+   "dining": 100,
+   "online": 100,
+   "overseas": 100,
+   "travel": 100,
+   "grocery": 100,
+   "fuel": 100
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "AirAsia Rewards",
+   "FlyerBonus"
+  ],
+  "caps": "1 K Point/25 บาท; ROP 4:1 (ขั้นต่ำ 20,000 K Point), AirAsia 2:1, FlyerBonus 4:1 = 100 บาท/ไมล์ ROP; ไม่ได้แต้ม EEA/จีน/ร้านออนไลน์ต่างประเทศ/DCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer/Asia Miles; หมวดอื่นสูงสุด 3 K Point ตามเงื่อนไข (ไม่นับ)",
+  "perks": [],
+  "url": "https://www.chaimiles.com/credit-cards/kbank-one-siam-visa-infinite",
+  "confidence": "medium",
+  "image": null
+ },
+ {
+  "id": "kbank-one-siam-visa-signature",
+  "bank": "KBank",
+  "name": "One Siam Visa Signature",
+  "nameTh": null,
+  "network": "Visa Signature",
+  "annualFee": 4000,
+  "feeNote": "4,000 ฟรีปีแรก ยกเว้นตามเงื่อนไข",
+  "minIncome": null,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": 100,
+   "dining": 100,
+   "online": 100,
+   "overseas": 100,
+   "travel": 100,
+   "grocery": 100,
+   "fuel": 100
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "AirAsia Rewards",
+   "FlyerBonus"
+  ],
+  "caps": "1 K Point/25 บาท; ROP 4:1 (ขั้นต่ำ 20,000 K Point), AirAsia 2:1, FlyerBonus 4:1 = 100 บาท/ไมล์ ROP; ไม่ได้แต้ม EEA/จีน/ร้านออนไลน์ต่างประเทศ/DCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer/Asia Miles",
+  "perks": [],
+  "url": "https://www.chaimiles.com/credit-cards/kbank-one-siam-visa-signature",
+  "confidence": "low",
+  "image": null
+ },
+ {
+  "id": "kbank-ptt-blue",
+  "bank": "KBank",
+  "name": "PTT Blue",
+  "nameTh": null,
+  "network": "Visa",
+  "annualFee": 1050,
+  "feeNote": "1,050 ฟรีปีแรก ยกเว้นเมื่อใช้ 20,000/ปี หรือ 12 ครั้ง/ปี",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": 100,
+   "dining": 100,
+   "online": 100,
+   "overseas": 100,
+   "travel": 100,
+   "grocery": 100,
+   "fuel": 100
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "AirAsia Rewards",
+   "FlyerBonus"
+  ],
+  "caps": "1 K Point/25 บาท; ROP 4:1 (ขั้นต่ำ 20,000 K Point), AirAsia 2:1, FlyerBonus 4:1 = 100 บาท/ไมล์ ROP; ไม่ได้แต้ม EEA/จีน/ร้านออนไลน์ต่างประเทศ/DCC; ไม่พบข้อยกเว้นน้ำมัน; ไม่มี KrisFlyer/Asia Miles; K Point หมดอายุ 3 ปี",
+  "perks": [],
+  "url": "https://www.chaimiles.com/credit-cards/kbank-ptt-blue",
+  "confidence": "medium",
+  "image": null
+ },
+ {
+  "id": "uob-privi-miles",
+  "bank": "UOB",
+  "name": "UOB PRVI Miles",
+  "nameTh": null,
+  "network": "Visa Infinite",
+  "annualFee": 4280,
+  "feeNote": "ฟรีปีแรก; ปีต่อไป 4,280 ฟรีเมื่อใช้จ่าย 300,000/ปี",
+  "minIncome": 50000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": 40.5,
+   "dining": 40.5,
+   "online": 40.5,
+   "overseas": 40.5,
+   "travel": 40.5,
+   "grocery": 40.5,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "KrisFlyer",
+   "Asia Miles",
+   "Qatar Airways",
+   "EVA Air",
+   "Bangkok Airways"
+  ],
+  "caps": "15 บาท=1 คะแนน; 2.7 คะแนน=1 ไมล์ (ROP/KF/Asia Miles). สกุล SGD/MYR/IDR/VND 12 บาท=1 คะแนน (=32.4/ไมล์, เพดาน 3,000 คะแนน/เดือน); Agoda ผ่านหน้าเฉพาะ 5 บาท=1 คะแนน (=13.5/ไมล์, เพดาน 6,000 คะแนน/เดือน); ซูเปอร์มาร์เก็ตนับคะแนนไม่เกิน 200,000/รอบ; ปั๊มน้ำมัน/MCP ไม่ได้คะแนน",
+  "perks": [
+   "เลานจ์สุวรรณภูมิ 2 ครั้ง/ปี",
+   "ลิมูซีนสนามบิน (เฉพาะ PVB) เมื่อใช้ 500,000/ปี",
+   "ประกันการเดินทาง"
+  ],
+  "url": "https://www.uob.co.th/personal-en/credit-cards/travel/privimiles-credit-card.page",
+  "confidence": "high",
+  "image": null
+ },
+ {
+  "id": "uob-premier",
+  "bank": "UOB",
+  "name": "UOB Premier",
+  "nameTh": null,
+  "network": "Mastercard",
+  "annualFee": 5350,
+  "feeNote": "ฟรีปีแรก; ปีต่อไป 5,350 ฟรีเมื่อใช้ 300,000/ปี",
+  "minIncome": 30000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": 62.5,
+   "dining": 62.5,
+   "online": 62.5,
+   "overseas": 62.5,
+   "travel": 62.5,
+   "grocery": 62.5,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "KrisFlyer",
+   "Asia Miles",
+   "Qatar Airways",
+   "EVA Air",
+   "Bangkok Airways"
+  ],
+  "caps": "5 คะแนน=1 ไมล์ (ROP/KF/Asia). ทั่วไป X2 (2 คะแนน/25 บาท) ห้าง/ดิวตี้ฟรี X4 (=31.25/ไมล์); ซูเปอร์มาร์เก็ต cashback 5% เมื่อ >=800/สลิป; ฐาน 25 บาท=1 คะแนนอนุมานจาก X2 (ควรยืนยัน)",
+  "perks": [
+   "เลานจ์ Miracle 2 ครั้ง/ปี",
+   "Priority Pass ไม่จำกัดเมื่อใช้ 1 ล้าน/ปี",
+   "ที่จอดรถ VIP"
+  ],
+  "url": "https://www.uob.co.th/personal-en/credit-cards/shopping/uob-premier-credit-card.page",
+  "confidence": "medium",
+  "image": null
+ },
+ {
+  "id": "uob-preferred",
+  "bank": "UOB",
+  "name": "UOB Preferred",
+  "nameTh": null,
+  "network": "ไม่ระบุในหน้าทางการ",
+  "annualFee": 3210,
+  "feeNote": "ฟรีปีแรก; ปีต่อไป 3,210 ฟรีเมื่อใช้ 150,000/ปี",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": 75,
+   "dining": 75,
+   "online": 75,
+   "overseas": 75,
+   "travel": 75,
+   "grocery": 75,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "KrisFlyer",
+   "Asia Miles",
+   "Qatar Airways",
+   "EVA Air"
+  ],
+  "caps": "15 บาท=1 คะแนน; 5 คะแนน=1 ไมล์ (ตารางอัตรา 1 ต.ค. 68). ซูเปอร์มาร์เก็ตนับไม่เกิน 200,000/รอบ; ปั๊มน้ำมันไม่ได้คะแนน; cashback 15% ร้านที่ร่วม (จำกัดเล็กน้อย)",
+  "perks": [
+   "Cashback 15% ร้านที่ร่วมรายการ",
+   "ประกันเดินทาง/Roadside",
+   "The 1 X3 ที่ Central/Robinson/Tops"
+  ],
+  "url": "https://www.uob.co.th/personal-en/credit-cards/rewards/uob-preferred-credit-card.page",
+  "confidence": "medium",
+  "image": "img/uob-preferred.png"
+ },
+ {
+  "id": "uob-world",
+  "bank": "UOB",
+  "name": "UOB World",
+  "nameTh": null,
+  "network": "Mastercard World",
+  "annualFee": 4066,
+  "feeNote": "ฟรีปีแรก; ปีต่อไป 4,066 ฟรีเมื่อใช้ 100,000/ปี",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": 62.5,
+   "dining": 25,
+   "online": 25,
+   "overseas": 25,
+   "travel": 25,
+   "grocery": 62.5,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "KrisFlyer",
+   "Asia Miles",
+   "Qatar Airways",
+   "EVA Air"
+  ],
+  "caps": "X5 (5 คะแนน/25 บาท) ออนไลน์/e-wallet/ร้านอาหาร/เดินทาง/สกุลต่างประเทศ เพดานเฉพาะ X5 ราว 20,000 บาท/รอบบิล (ตามข้อมูลค้นหา) เกินนั้น X2; 5 คะแนน=1 ไมล์ (ROP/KF/Asia); ปีเกิด ห้างสรรพสินค้า X10",
+  "perks": [
+   "X5 ออนไลน์/ร้านอาหาร/ต่างประเทศ",
+   "e-Coupon รายเดือน",
+   "สิทธิ์วันเกิด"
+  ],
+  "url": "https://www.uob.co.th/personal-en/credit-cards/rewards/uob-world-credit-card.page",
+  "confidence": "medium",
+  "image": "img/uob-world.jpg"
+ },
+ {
+  "id": "uob-ladys-platinum",
+  "bank": "UOB",
+  "name": "UOB Lady's Platinum",
+  "nameTh": null,
+  "network": "Mastercard",
+  "annualFee": 3210,
+  "feeNote": "ฟรีปีแรก; ปีต่อไป 3,210 ฟรีเมื่อใช้ 100,000/ปี",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": 125,
+   "dining": 41.67,
+   "online": 41.67,
+   "overseas": 125,
+   "travel": 125,
+   "grocery": 125,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "KrisFlyer",
+   "Asia Miles",
+   "Qatar Airways",
+   "EVA Air"
+  ],
+  "caps": "25 บาท=1 คะแนน; X3 แฟชั่น/ร้านอาหาร/ออนไลน์/ฟู้ดเดลิเวอรี/ห้าง (ในไทย) เพดานใช้จ่ายรวม 100,000/เดือน; 5 คะแนน=1 ไมล์",
+  "perks": [
+   "X3 แฟชั่น/ร้านอาหาร/ออนไลน์",
+   "ประกันเดินทาง 10 ล้าน",
+   "Roadside"
+  ],
+  "url": "https://www.uob.co.th/personal-en/credit-cards/shopping/uob-ladys-credit-card.page",
+  "confidence": "medium",
+  "image": null
+ },
+ {
+  "id": "uob-ladys-solitaire",
+  "bank": "UOB",
+  "name": "UOB Lady's Solitaire",
+  "nameTh": null,
+  "network": "Mastercard",
+  "annualFee": 4280,
+  "feeNote": "ฟรีปีแรก; ปีต่อไป 4,280 ฟรีเมื่อใช้ 200,000/ปี",
+  "minIncome": 30000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": 125,
+   "dining": 41.67,
+   "online": 41.67,
+   "overseas": 125,
+   "travel": 125,
+   "grocery": 125,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "KrisFlyer",
+   "Asia Miles",
+   "Qatar Airways",
+   "EVA Air"
+  ],
+  "caps": "25 บาท=1 คะแนน; X3 หมวดเดียวกับ Lady's Platinum เพดาน 100,000/เดือน; 5 คะแนน=1 ไมล์; ซูเปอร์มาร์เก็ต cashback 5% เมื่อ >=800/สลิป",
+  "perks": [
+   "เลานจ์สนามบิน 2 ครั้ง/ปี (ใช้ 150,000/ปี)",
+   "ลิมูซีน 2 ครั้ง/ปี",
+   "Cashback ซูเปอร์ 5%"
+  ],
+  "url": "https://www.uob.co.th/personal-en/credit-cards/shopping/uob-ladys-credit-card.page",
+  "confidence": "medium",
+  "image": null
+ },
+ {
+  "id": "uob-mercedes",
+  "bank": "UOB",
+  "name": "UOB Mercedes",
+  "nameTh": null,
+  "network": "ไม่ระบุในหน้าทางการ",
+  "annualFee": 5350,
+  "feeNote": "ฟรีปีแรก; ปีต่อไป 5,350 ฟรีเมื่อใช้ 300,000/ปี",
+  "minIncome": 50000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": 125,
+   "dining": 125,
+   "online": 125,
+   "overseas": 41.67,
+   "travel": 125,
+   "grocery": 125,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "KrisFlyer",
+   "Asia Miles",
+   "Qatar Airways",
+   "EVA Air"
+  ],
+  "caps": "ฐาน 25 บาท=1 คะแนน (อนุมาน); สกุลต่างประเทศ X3; ศูนย์ Mercedes X4 (จองรถ X20 จำกัด); 5 คะแนน=1 ไมล์",
+  "perks": [
+   "ส่วนลดสูงสุด 35% ที่ศูนย์ Mercedes",
+   "Cashback น้ำมัน 3%",
+   "เลานจ์/ลิมูซีน"
+  ],
+  "url": "https://www.uob.co.th/personal-en/credit-cards/rewards/uob-mercedes-credit-card.page",
+  "confidence": "medium",
+  "image": "img/uob-mercedes.jpg"
+ },
+ {
+  "id": "uob-royal-orchid-plus",
+  "bank": "UOB",
+  "name": "UOB Royal Orchid Plus",
+  "nameTh": null,
+  "network": "ไม่ระบุในหน้าทางการ",
+  "annualFee": 4280,
+  "feeNote": "ฟรีปีแรก; ปีต่อไป 4,280 ฟรีเมื่อใช้ 300,000/ปี",
+  "minIncome": 30000,
+  "inviteOnly": false,
+  "reward": "miles",
+  "earn": {
+   "base": 40,
+   "dining": 40,
+   "online": 40,
+   "overseas": null,
+   "travel": 20,
+   "grocery": 40,
+   "fuel": 40
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus"
+  ],
+  "caps": "20 บาท=1 คะแนน; 2 คะแนน=1 ไมล์ ROP; ซื้อ Thai Airways/ROP Holidays X2 (ต่อสลิป 30,000); น้ำมันนับไม่เกิน 20,000/รอบ; ซูเปอร์ฯ ไม่เกิน 100,000/รอบ; สกุลต่างประเทศ/MCP ไม่ได้คะแนน (ตามเงื่อนไข)",
+  "perks": [
+   "เลานจ์ Thai 2 ครั้ง/ปี",
+   "ลิมูซีน Flying Orange",
+   "ตั๋วหนัง SF 69 บาท"
+  ],
+  "url": "https://www.uob.co.th/personal-en/credit-cards/travel/royal-orchid-plus.page",
+  "confidence": "high",
+  "image": "img/uob-royal-orchid-plus.jpg"
+ },
+ {
+  "id": "uob-royal-orchid-plus-preferred",
+  "bank": "UOB",
+  "name": "UOB Royal Orchid Plus Preferred",
+  "nameTh": null,
+  "network": "ไม่ระบุในหน้าทางการ",
+  "annualFee": 10700,
+  "feeNote": "เก็บปีแรกด้วย; 10,700/ปี",
+  "minIncome": 50000,
+  "inviteOnly": false,
+  "reward": "miles",
+  "earn": {
+   "base": 35,
+   "dining": 26.25,
+   "online": 35,
+   "overseas": 26.25,
+   "travel": 26.25,
+   "grocery": 35,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus"
+  ],
+  "caps": "20 บาท=1 คะแนน; ร้านอาหาร/เดินทาง/สกุลต่างประเทศ 15 บาท=1 คะแนน (ร้านอาหาร/เดินทางบาทไม่เกิน 200,000/รอบ); 1.75 คะแนน=1 ไมล์ ROP; Thai Airways X2",
+  "perks": [
+   "เลานจ์ Thai ไม่จำกัด",
+   "Fast track ROP Gold",
+   "ลิมูซีน 2 ครั้ง/ปี"
+  ],
+  "url": "https://www.uob.co.th/personal-en/credit-cards/travel/royal-orchid-plus-preferred.page",
+  "confidence": "medium",
+  "image": "img/uob-royal-orchid-plus-preferred.jpg"
+ },
+ {
+  "id": "uob-krisflyer-world",
+  "bank": "UOB",
+  "name": "UOB KrisFlyer World",
+  "nameTh": null,
+  "network": "ไม่ระบุ (น่าจะ Mastercard World)",
+  "annualFee": 4280,
+  "feeNote": "ฟรีปีแรก; ปีต่อไป 4,280 ฟรีเมื่อใช้ 300,000/ปี",
+  "minIncome": 30000,
+  "inviteOnly": false,
+  "reward": "miles",
+  "earn": {
+   "base": 40,
+   "dining": 40,
+   "online": 40,
+   "overseas": 25,
+   "travel": 15,
+   "grocery": 40,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "KrisFlyer"
+  ],
+  "caps": "โอนเป็น KrisFlyer อัตราโดยตรง: SQ/Scoot/KrisShop 15 บาท/ไมล์, ดิวตี้ฟรี+สกุลต่างประเทศ 25, อื่น ๆ 40. UOB ประกาศปรับอัตราตั้งแต่ 1 ส.ค. 69 แต่ไม่พบตัวเลขใหม่ (ตัวเลขอาจล้าสมัย)",
+  "perks": [
+   "เลานจ์ Miracle 2 ครั้ง/ปี",
+   "Rebate น้ำมัน 2% Shell/Caltex",
+   "สิทธิ์ Scoot"
+  ],
+  "url": "https://www.uob.co.th/personal-en/credit-cards/travel/singapore-airlines-krisflyer-credit-card.page",
+  "confidence": "low",
+  "image": "img/uob-krisflyer-world.jpg"
+ },
+ {
+  "id": "uob-krisflyer-world-elite",
+  "bank": "UOB",
+  "name": "UOB KrisFlyer World Elite",
+  "nameTh": null,
+  "network": "Mastercard World Elite",
+  "annualFee": 10700,
+  "feeNote": "10,700/ปี (เก็บปีแรก)",
+  "minIncome": 50000,
+  "inviteOnly": false,
+  "reward": "miles",
+  "earn": {
+   "base": 35,
+   "dining": 35,
+   "online": 35,
+   "overseas": 20,
+   "travel": 12.5,
+   "grocery": 35,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "KrisFlyer"
+  ],
+  "caps": "SQ/Scoot/KrisShop 12.5 บาท/ไมล์ (เพดาน 200,000/รอบ), ดิวตี้ฟรี+สกุลต่างประเทศ 20 (เพดาน 200,000/รอบ), อื่น ๆ 35. UOB ประกาศปรับอัตราตั้งแต่ 1 ส.ค. 69 แต่ไม่พบตัวเลขใหม่",
+  "perks": [
+   "เลานจ์ Mastercard Travel Pass 6 ครั้ง/ปี",
+   "ลิมูซีน 3 ครั้ง/ปี",
+   "โบนัส 25,000 ไมล์เมื่อใช้ 1 ล้าน/ปี"
+  ],
+  "url": "https://www.uob.co.th/personal-en/credit-cards/travel/singapore-airlines-krisflyer-elite-credit-card.page",
+  "confidence": "medium",
+  "image": "img/uob-krisflyer-world-elite.jpg"
+ },
+ {
+  "id": "uob-zenith",
+  "bank": "UOB",
+  "name": "UOB Zenith",
+  "nameTh": null,
+  "network": "Visa",
+  "annualFee": 8453,
+  "feeNote": "7,900 + VAT; เฉพาะได้รับเชิญ",
+  "minIncome": null,
+  "inviteOnly": true,
+  "reward": "points",
+  "earn": {
+   "base": 50,
+   "dining": 50,
+   "online": 50,
+   "overseas": 33.33,
+   "travel": 50,
+   "grocery": 50,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "KrisFlyer",
+   "Asia Miles"
+  ],
+  "caps": "เชิญเท่านั้น; ในประเทศ 2 คะแนน/25 บาท, ต่างประเทศ 3 คะแนน/25 บาท; 4 คะแนน=1 ไมล์ (ROP/KF/Asia)",
+  "perks": [
+   "Priority Pass 12 ครั้ง/ปี",
+   "ลิมูซีนสนามบิน 2 ครั้ง/ปี",
+   "คืนที่ 4 ฟรี"
+  ],
+  "url": "https://www.uob.co.th/personal-en/credit-cards/rewards/zenith-credit-card.page",
+  "confidence": "medium",
+  "image": "img/uob-zenith.jpg"
+ },
+ {
+  "id": "uob-infinite",
+  "bank": "UOB",
+  "name": "UOB Infinite",
+  "nameTh": null,
+  "network": "Visa Infinite",
+  "annualFee": 39055,
+  "feeNote": "36,500 + VAT เก็บปีแรกด้วย; ลูกค้า Wealth",
+  "minIncome": null,
+  "inviteOnly": true,
+  "reward": "points",
+  "earn": {
+   "base": 20,
+   "dining": 20,
+   "online": 20,
+   "overseas": 20,
+   "travel": 20,
+   "grocery": 20,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "KrisFlyer",
+   "Asia Miles"
+  ],
+  "caps": "ตัวเลข 20 บาท/ไมล์มาจากผลค้นหาไม่ใช่หน้าทางการ (ลูกค้า UOB Wealth); ตารางแลกคะแนนทางการ 3 คะแนน=1 ไมล์",
+  "perks": [
+   "สิทธิ์ Visa Infinite"
+  ],
+  "url": "https://www.uob.co.th/personal-en/credit-cards/travel/visa-infinite.page",
+  "confidence": "low",
+  "image": null
+ },
+ {
+  "id": "uob-reserve",
+  "bank": "UOB",
+  "name": "UOB Reserve",
+  "nameTh": null,
+  "network": "Visa Infinite",
+  "annualFee": 105930,
+  "feeNote": "99,000 + VAT เก็บปีแรกด้วย",
+  "minIncome": null,
+  "inviteOnly": true,
+  "reward": "points",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "KrisFlyer",
+   "Asia Miles"
+  ],
+  "caps": "ไม่พบรายละเอียดทางการ; ตารางแลกคะแนน 2 คะแนน=1 ไมล์",
+  "perks": [
+   "ไม่ทราบรายละเอียด"
+  ],
+  "url": "https://www.uob.co.th/personal-en/credit-cards.page",
+  "confidence": "low",
+  "image": null
+ },
+ {
+  "id": "uob-yolo-platinum",
+  "bank": "UOB",
+  "name": "UOB Yolo Platinum",
+  "nameTh": null,
+  "network": "ไม่ระบุในหน้าทางการ",
+  "annualFee": 2140,
+  "feeNote": "ฟรีปีแรก; ปีต่อไป 2,140 ฟรีเมื่อใช้ 100,000/ปี",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "cashback",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": {
+   "base": 1.0,
+   "dining": 1.0,
+   "online": 1.0,
+   "overseas": 1.0,
+   "travel": 1.0,
+   "grocery": 1.0,
+   "fuel": 1.0
+  },
+  "milesPartners": [],
+  "caps": "คืน 15% ร้านที่ร่วม (7-Eleven, Shopee, Grab ฯลฯ) จำกัด 200 บาท/รอบบิล ส่วนอื่น 1% (อนุมาน 1% ทุกหมวด)",
+  "perks": [
+   "Cashback 15% ร้านที่ร่วม",
+   "0% 3 เดือน",
+   "ตั๋วหนัง SF 1 แถม 1"
+  ],
+  "url": "https://www.uob.co.th/personal-en/credit-cards/cash-back/uob-yolo-platinum.page",
+  "confidence": "medium",
+  "image": "img/uob-yolo-platinum.jpg"
+ },
+ {
+  "id": "uob-one",
+  "bank": "UOB",
+  "name": "UOB One",
+  "nameTh": null,
+  "network": "ไม่ระบุในหน้าทางการ",
+  "annualFee": 2140,
+  "feeNote": "ฟรีปีแรก; ปีต่อไป 2,140 ฟรีเมื่อใช้ 60,000/ปี",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "cashback",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": {
+   "base": 1.0,
+   "dining": 1.0,
+   "online": 1.0,
+   "overseas": 1.0,
+   "travel": 1.0,
+   "grocery": 1.0,
+   "fuel": 1.0
+  },
+  "milesPartners": [],
+  "caps": "10% BTS/MRT/Cafe Amazon; 5% 7-Eleven/Grab/Watsons; 1% อื่น ๆ (เพดานไม่ระบุในที่ได้)",
+  "perks": [
+   "Cashback 10%/5% ร้านที่ร่วม",
+   "ตั๋วหนัง SF 1 แถม 1",
+   "ประกันเดินทาง 10 ล้าน"
+  ],
+  "url": "https://www.uob.co.th/personal-en/credit-cards/cash-back/one-cash-back-credit-card.page",
+  "confidence": "medium",
+  "image": "img/uob-one.jpg"
+ },
+ {
+  "id": "uob-simple",
+  "bank": "UOB",
+  "name": "UOB Simple",
+  "nameTh": null,
+  "network": "ไม่ระบุ",
+  "annualFee": 0,
+  "feeNote": "ไม่มีค่าธรรมเนียมรายปีตลอดชีพ",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "cashback",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": {
+   "base": 0.0,
+   "dining": 0.0,
+   "online": 0.0,
+   "overseas": 0.0,
+   "travel": 0.0,
+   "grocery": 0.0,
+   "fuel": 1.0
+  },
+  "milesPartners": [],
+  "caps": "คืน 1% น้ำมัน Shell เมื่อ >=800/สลิป (ลงทะเบียน); ไม่พบอัตรา cashback/คะแนนอื่น",
+  "perks": [
+   "ไม่มีค่าธรรมเนียมรายปี",
+   "e-Coupon 200 บาท/เดือน"
+  ],
+  "url": "https://www.uob.co.th/personal-en/credit-cards/shopping/uob-simple-credit-card.page",
+  "confidence": "low",
+  "image": null
+ },
+ {
+  "id": "uob-lazada",
+  "bank": "UOB",
+  "name": "UOB Lazada",
+  "nameTh": null,
+  "network": "ไม่ระบุ",
+  "annualFee": 2140,
+  "feeNote": "ฟรีปีแรก; ปีต่อไป 2,140 ฟรีเมื่อใช้ 60,000/ปี",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [],
+  "caps": "X10-X15 บน Lazada, X3 แฟชั่น/ห้าง/ร้านอาหาร; ไม่อยู่ในตารางแลกคะแนนเป็นไมล์",
+  "perks": [
+   "คะแนน X10 Lazada",
+   "ส่งฟรี Lazada",
+   "ตั๋วหนัง 59 บาท"
+  ],
+  "url": "https://www.uob.co.th/personal-en/credit-cards/shopping/uob-lazada-credit-card.page",
+  "confidence": "medium",
+  "image": null
+ },
+ {
+  "id": "uob-grab",
+  "bank": "UOB",
+  "name": "UOB Grab",
+  "nameTh": null,
+  "network": "ไม่ระบุ",
+  "annualFee": 2140,
+  "feeNote": "ค่าธรรมเนียมกลุ่มเดียวกับ Lazada/One (ข้อมูลจาก fact sheet)",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [],
+  "caps": "ไม่พบรายละเอียดหน้าสินค้า; ไม่อยู่ในตารางแลกไมล์",
+  "perks": [
+   "สิทธิ์ Grab"
+  ],
+  "url": "https://www.uob.co.th/personal-en/credit-cards.page",
+  "confidence": "low",
+  "image": null
+ },
+ {
+  "id": "uob-makro",
+  "bank": "UOB",
+  "name": "UOB Makro",
+  "nameTh": null,
+  "network": "ไม่ระบุ",
+  "annualFee": 2033,
+  "feeNote": "1,900 + VAT",
+  "minIncome": null,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [],
+  "caps": "ไม่พบรายละเอียด; ไม่อยู่ในตารางแลกไมล์",
+  "perks": [
+   "สิทธิ์ Makro"
+  ],
+  "url": "https://www.uob.co.th/personal-en/credit-cards.page",
+  "confidence": "low",
+  "image": null
+ },
+ {
+  "id": "bbl-platinum-leader",
+  "bank": "BBL",
+  "name": "Bangkok Bank Platinum Leader",
+  "nameTh": null,
+  "network": "Visa Platinum",
+  "annualFee": 4000,
+  "feeNote": "ฟรีปีแรก; ฟรีเมื่อใช้ 150,000/ปี",
+  "minIncome": 100000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": 31.25,
+   "dining": 31.25,
+   "online": 31.25,
+   "overseas": 31.25,
+   "travel": 31.25,
+   "grocery": 31.25,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "Bangkok Airways FlyerBonus",
+   "AirAsia BIG"
+  ],
+  "caps": "2 คะแนน/25 บาท ทั้งในและต่างประเทศ; ROP 2,500 คะแนน=1,000 ไมล์ (2.5:1); ค่าธรรมเนียมจาก checkraka อาจยังไม่รวม VAT",
+  "perks": [
+   "ประกันเดินทาง",
+   "Roadside 24 ชม.",
+   "Visa Platinum privileges"
+  ],
+  "url": "https://www.bangkokbank.com/en/Personal/Cards/Credit-Cards/Bangkok-Bank-Platinum-Leader-Card",
+  "confidence": "medium",
+  "image": null
+ },
+ {
+  "id": "bbl-visa-infinite",
+  "bank": "BBL",
+  "name": "Bangkok Bank Visa Infinite",
+  "nameTh": null,
+  "network": "Visa Infinite",
+  "annualFee": 30000,
+  "feeNote": "ฟรีเมื่อมียอดเงินเฉลี่ย 10 ล้านบาท",
+  "minIncome": null,
+  "inviteOnly": true,
+  "reward": "points",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "Bangkok Airways FlyerBonus",
+   "AirAsia BIG"
+  ],
+  "caps": "เชิญเท่านั้น (ฝากเฉลี่ย 10 ล้าน+); 2 คะแนน/25 บาท; ไม่พบอัตรา ROP ของบัตรนี้",
+  "perks": [
+   "Priority Pass 4 ครั้ง/ปี",
+   "ลิมูซีนโรงแรม-สนามบิน",
+   "สปา 4 ครั้ง/ปี"
+  ],
+  "url": "https://www.bangkokbank.com/en/Personal/Cards/Credit-Cards/Bangkok-Bank-Visa-Infinite-Card",
+  "confidence": "medium",
+  "image": null
+ },
+ {
+  "id": "bbl-pinnacle",
+  "bank": "BBL",
+  "name": "Bangkok Bank PINNACLE",
+  "nameTh": null,
+  "network": "Metal (Visa)",
+  "annualFee": null,
+  "feeNote": null,
+  "minIncome": null,
+  "inviteOnly": true,
+  "reward": "points",
+  "earn": {
+   "base": 25,
+   "dining": 25,
+   "online": 25,
+   "overseas": 25,
+   "travel": 25,
+   "grocery": 25,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "Bangkok Airways FlyerBonus",
+   "AirAsia BIG"
+  ],
+  "caps": "เชิญเท่านั้น (สินทรัพย์ 100 ล้าน+); 2 คะแนน/25 บาท; 2,000 คะแนน=1,000 ไมล์ ROP",
+  "perks": [
+   "ผู้ช่วยส่วนตัว",
+   "บัตรโลหะ"
+  ],
+  "url": "https://www.bangkokbank.com/en/Personal/Cards/Credit-Cards/Pinnacle",
+  "confidence": "low",
+  "image": null
+ },
+ {
+  "id": "bbl-m-legend",
+  "bank": "BBL",
+  "name": "Bangkok Bank M LEGEND Visa Infinite",
+  "nameTh": null,
+  "network": "Visa Infinite",
+  "annualFee": null,
+  "feeNote": null,
+  "minIncome": null,
+  "inviteOnly": true,
+  "reward": "points",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "Bangkok Airways FlyerBonus",
+   "AirAsia BIG"
+  ],
+  "caps": "เชิญเท่านั้น; ไม่พบรายละเอียด",
+  "perks": [],
+  "url": "https://www.bangkokbank.com/th/personal/cards/bangkokbankm/mluxe",
+  "confidence": "low",
+  "image": null
+ },
+ {
+  "id": "bbl-m-luxe",
+  "bank": "BBL",
+  "name": "Bangkok Bank M LUXE Visa Signature",
+  "nameTh": null,
+  "network": "Visa Signature",
+  "annualFee": null,
+  "feeNote": null,
+  "minIncome": 300000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "Bangkok Airways FlyerBonus",
+   "AirAsia BIG"
+  ],
+  "caps": "M Point 1 คะแนน/25 บาท (The Mall Group สูงสุด 4X); แลกไมล์ ROP/FlyerBonus/AirAsia ไม่พบอัตรา",
+  "perks": [
+   "สิทธิ์ The Mall Group"
+  ],
+  "url": "https://www.bangkokbank.com/th/personal/cards/bangkokbankm/mluxe",
+  "confidence": "low",
+  "image": null
+ },
+ {
+  "id": "bbl-m-live",
+  "bank": "BBL",
+  "name": "Bangkok Bank M LIVE Visa Platinum",
+  "nameTh": null,
+  "network": "Visa Platinum",
+  "annualFee": 1000,
+  "feeNote": "ฟรีเมื่อใช้ 10,000/ปี",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "Bangkok Airways FlyerBonus",
+   "AirAsia BIG"
+  ],
+  "caps": "M Point 1 คะแนน/25 บาท; The Mall Group X3; ไม่พบอัตราแลกไมล์",
+  "perks": [
+   "ส่วนลด 5% The Mall Group",
+   "ผ่อน 0% สูงสุด 10 เดือน"
+  ],
+  "url": "https://www.bangkokbank.com/en/Personal/Cards/Credit-Cards/Bangkok-Bank-M-LIVE-Visa-Platinum",
+  "confidence": "low",
+  "image": null
+ },
+ {
+  "id": "bbl-visa-platinum",
+  "bank": "BBL",
+  "name": "Bangkok Bank Visa Platinum",
+  "nameTh": null,
+  "network": "Visa Platinum",
+  "annualFee": 3000,
+  "feeNote": "ฟรีเมื่อใช้ 5,000/ปี; ค่าแรกเข้า 1,000",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": 75,
+   "dining": 75,
+   "online": 75,
+   "overseas": 75,
+   "travel": 75,
+   "grocery": 75,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "Bangkok Airways FlyerBonus",
+   "AirAsia BIG"
+  ],
+  "caps": "1 คะแนน/25 บาท; ROP 3,000 คะแนน=1,000 ไมล์ (3:1)",
+  "perks": [
+   "ประกันอุบัติเหตุ",
+   "Roadside",
+   "Concierge"
+  ],
+  "url": "https://www.bangkokbank.com/en/Personal/Cards/Credit-Cards/Bangkok-Bank-Visa-Platinum-Credit-Card",
+  "confidence": "medium",
+  "image": null
+ },
+ {
+  "id": "bbl-visa-platinum-travel",
+  "bank": "BBL",
+  "name": "Bangkok Bank Visa Platinum Travel",
+  "nameTh": null,
+  "network": "Visa Platinum",
+  "annualFee": 3000,
+  "feeNote": "ฟรีเมื่อใช้ 5,000/ปี (อนุมานตามบัตร Visa Platinum)",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": 75,
+   "dining": 75,
+   "online": 75,
+   "overseas": 75,
+   "travel": 75,
+   "grocery": 75,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "Bangkok Airways FlyerBonus",
+   "AirAsia BIG"
+  ],
+  "caps": "1 คะแนน/25 บาท; ROP 3,000 คะแนน=1,000 ไมล์",
+  "perks": [
+   "ประกันเดินทาง"
+  ],
+  "url": "https://www.bangkokbank.com/en/Personal/Cards/Credit-Cards/Bangkok-Bank-Visa-Travel-Card",
+  "confidence": "medium",
+  "image": null
+ },
+ {
+  "id": "bbl-mastercard-platinum-travel",
+  "bank": "BBL",
+  "name": "Bangkok Bank Mastercard Platinum Travel",
+  "nameTh": null,
+  "network": "Mastercard Platinum",
+  "annualFee": 3000,
+  "feeNote": "ฟรีเมื่อใช้ 5,000/ปี; ค่าแรกเข้า 1,000",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": 75,
+   "dining": 75,
+   "online": 75,
+   "overseas": 75,
+   "travel": 75,
+   "grocery": 75,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "Bangkok Airways FlyerBonus",
+   "AirAsia BIG"
+  ],
+  "caps": "1 คะแนน/25 บาท; ROP 3,000 คะแนน=1,000 ไมล์; บัตรร่วม ททท.",
+  "perks": [
+   "ประกันอุบัติเหตุ",
+   "Concierge"
+  ],
+  "url": "https://www.bangkokbank.com/en/Personal/Cards/Credit-Cards/Bangkok-Bank-Travel-Credit-Card",
+  "confidence": "medium",
+  "image": null
+ },
+ {
+  "id": "bbl-unionpay-platinum",
+  "bank": "BBL",
+  "name": "Bangkok Bank UnionPay Platinum",
+  "nameTh": null,
+  "network": "UnionPay Platinum",
+  "annualFee": 1500,
+  "feeNote": "ฟรีเมื่อใช้ 5,000/ปี",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "Bangkok Airways FlyerBonus",
+   "AirAsia BIG"
+  ],
+  "caps": "1 คะแนน/25 บาท; ไม่พบอัตราแลกไมล์",
+  "perks": [
+   "ประกันเดินทาง USD 500,000",
+   "U Collection"
+  ],
+  "url": "https://www.bangkokbank.com/en/Personal/Cards/Credit-Cards/",
+  "confidence": "low",
+  "image": null
+ },
+ {
+  "id": "bbl-titanium",
+  "bank": "BBL",
+  "name": "Bangkok Bank Titanium",
+  "nameTh": null,
+  "network": "Mastercard Titanium",
+  "annualFee": 1500,
+  "feeNote": "ฟรีเมื่อใช้ 5,000/ปี; ค่าแรกเข้า 1,000",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "cashback",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": {
+   "base": 0.5,
+   "dining": 0.5,
+   "online": 0.5,
+   "overseas": 0.5,
+   "travel": 0.5,
+   "grocery": 0.5,
+   "fuel": 0.5
+  },
+  "milesPartners": [],
+  "caps": "คืนเงินตามขั้น 0.5%-2% ตามยอดใช้จ่ายต่อรอบ (2% เมื่อ >200,000/รอบ)",
+  "perks": [
+   "Concierge 24 ชม.",
+   "ประกันอุบัติเหตุ 3 ล้าน"
+  ],
+  "url": "https://www.bangkokbank.com/en/Personal/Cards/Credit-Cards/",
+  "confidence": "low",
+  "image": null
+ },
+ {
+  "id": "bbl-titanium-piyavate",
+  "bank": "BBL",
+  "name": "Bangkok Bank Titanium Piyavate Hospital",
+  "nameTh": null,
+  "network": "Titanium",
+  "annualFee": null,
+  "feeNote": null,
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "cashback",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": {
+   "base": 0.5,
+   "dining": 0.5,
+   "online": 0.5,
+   "overseas": 0.5,
+   "travel": 0.5,
+   "grocery": 0.5,
+   "fuel": 0.5
+  },
+  "milesPartners": [],
+  "caps": "คืนเงินสูงสุด 2%; ไม่พบเพดานและค่าธรรมเนียม",
+  "perks": [
+   "สิทธิ์โรงพยาบาลปิยะเวท"
+  ],
+  "url": "https://www.bangkokbank.com/en/Personal/Cards/Credit-Cards/",
+  "confidence": "low",
+  "image": null
+ },
+ {
+  "id": "bbl-titanium-ramathibodi",
+  "bank": "BBL",
+  "name": "Bangkok Bank Titanium Ramathibodi Hospital",
+  "nameTh": null,
+  "network": "Titanium",
+  "annualFee": null,
+  "feeNote": null,
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "cashback",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": {
+   "base": 0.5,
+   "dining": 0.5,
+   "online": 0.5,
+   "overseas": 0.5,
+   "travel": 0.5,
+   "grocery": 0.5,
+   "fuel": 0.5
+  },
+  "milesPartners": [],
+  "caps": "ไม่พบอัตรา cashback/ค่าธรรมเนียม",
+  "perks": [
+   "สิทธิ์โรงพยาบาลรามาธิบดี"
+  ],
+  "url": "https://www.bangkokbank.com/en/Personal/Cards/Credit-Cards/",
+  "confidence": "low",
+  "image": null
+ },
+ {
+  "id": "bbl-visa-platinum-toyota",
+  "bank": "BBL",
+  "name": "Bangkok Bank Visa Platinum Toyota",
+  "nameTh": null,
+  "network": "Visa Platinum",
+  "annualFee": 3000,
+  "feeNote": "ค่าแรกเข้า 1,000; ฟรีตามเงื่อนไขยอดใช้จ่าย",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": 75,
+   "dining": 75,
+   "online": 75,
+   "overseas": 75,
+   "travel": 75,
+   "grocery": 75,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "Bangkok Airways FlyerBonus",
+   "AirAsia BIG"
+  ],
+  "caps": "1 คะแนน/25 บาท; อนุมานอัตรา ROP 3:1 ตาม Visa Platinum",
+  "perks": [
+   "คืน 12% ศูนย์บริการ Toyota (500/เดือน)",
+   "ส่วนลดอะไหล่ 15%"
+  ],
+  "url": "https://www.bangkokbank.com/en/Personal/Cards/Credit-Cards/Bangkok-Bank-Visa-Platinum-Toyota-Credit-Card",
+  "confidence": "low",
+  "image": null
+ },
+ {
+  "id": "bbl-visa-platinum-siriraj",
+  "bank": "BBL",
+  "name": "Bangkok Bank Visa Platinum Siriraj",
+  "nameTh": null,
+  "network": "Visa Platinum",
+  "annualFee": null,
+  "feeNote": null,
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "Bangkok Airways FlyerBonus",
+   "AirAsia BIG"
+  ],
+  "caps": "ไม่พบรายละเอียดค่าธรรมเนียม/อัตราแลก",
+  "perks": [
+   "สิทธิ์ศิริราช"
+  ],
+  "url": "https://www.bangkokbank.com/en/Personal/Cards/Credit-Cards/Bangkok-Bank-Visa-Platinum-Siriraj-Credit-Card",
+  "confidence": "low",
+  "image": null
+ },
+ {
+  "id": "bbl-platinum-bumrungrad",
+  "bank": "BBL",
+  "name": "Bangkok Bank Platinum Bumrungrad Hospital",
+  "nameTh": null,
+  "network": "Visa Platinum",
+  "annualFee": null,
+  "feeNote": "ฟรีเมื่อใช้ 150,000/ปี",
+  "minIncome": 100000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "Bangkok Airways FlyerBonus",
+   "AirAsia BIG"
+  ],
+  "caps": "ไม่พบอัตราแลกไมล์",
+  "perks": [
+   "สิทธิ์โรงพยาบาลบำรุงราษฎร์"
+  ],
+  "url": "https://www.bangkokbank.com/en/Personal/Cards/Credit-Cards/Bangkok-Bank-Platinum-Bumrungrad-Hospital-Credit-Card",
+  "confidence": "low",
+  "image": null
+ },
+ {
+  "id": "bbl-airasia",
+  "bank": "BBL",
+  "name": "Bangkok Bank AirAsia Platinum Mastercard",
+  "nameTh": null,
+  "network": "Mastercard Platinum",
+  "annualFee": 3000,
+  "feeNote": "ฟรีเมื่อใช้ 5,000/ปี; ค่าแรกเข้า 1,000",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "AirAsia BIG"
+  ],
+  "caps": "20 บาท=1 AirAsia point (ไม่ใช่ไมล์สายการบิน); ซื้อตั๋วผ่าน AirAsia สูงสุด 10X",
+  "perks": [
+   "สถานะ Platinum AirAsia Rewards",
+   "Hot seat/สัมภาระ",
+   "ผ่อน 0%"
+  ],
+  "url": "https://www.bangkokbank.com/en/fragments/accordions/personal/cards/credit-cards/bangkok-bank-airasia-credit-card",
+  "confidence": "medium",
+  "image": null
+ },
+ {
+  "id": "bbl-american-express",
+  "bank": "BBL",
+  "name": "Bangkok Bank American Express",
+  "nameTh": null,
+  "network": "American Express",
+  "annualFee": 750,
+  "feeNote": "ฟรีปีแรก; ฟรีเมื่อใช้ 5,000/ปี",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Bangkok Airways FlyerBonus",
+   "AirAsia BIG"
+  ],
+  "caps": "1 คะแนน/25 บาท; แลก FlyerBonus/AirAsia เท่านั้น",
+  "perks": [
+   "ประกันเดินทาง 4 ล้าน",
+   "Concierge 24 ชม."
+  ],
+  "url": "https://www.bangkokbank.com/en/Personal/Cards/Credit-Cards/",
+  "confidence": "low",
+  "image": null
+ },
+ {
+  "id": "amex-platinum",
+  "bank": "AMEX",
+  "name": "American Express Platinum Card",
+  "nameTh": "บัตรอเมริกัน เอ็กซ์เพรส แพลทินัม",
+  "network": "American Express",
+  "annualFee": 40000,
+  "feeNote": "ตั้งแต่ 28 ต.ค. 67 เป็นบัตรเครดิต (ดอกเบี้ย 16%)",
+  "minIncome": null,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": 50,
+   "dining": 50,
+   "online": 50,
+   "overseas": 50,
+   "travel": 50,
+   "grocery": 50,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "KrisFlyer",
+   "Asia Miles"
+  ],
+  "caps": "1 MR คะแนน/25 บาท; 2 MR=1 ไมล์ ROP (ยืนยันทางการ); KrisFlyer/Asia Miles ตามผลค้นหา ไม่ยืนยันอัตรา; ต่างประเทศ 5X เมื่อเกิน 500,000 (ปี 2569)",
+  "perks": [
+   "Global Lounge Collection (Centurion, Priority Pass)",
+   "พักฟรี 1 คืนโรงแรมพรีเมียม",
+   "ประกันเดินทาง 25 ล้าน"
+  ],
+  "url": "https://www.americanexpress.com/th/en/platinum-card",
+  "confidence": "medium",
+  "image": "img/amex-platinum.png"
+ },
+ {
+  "id": "amex-thai-platinum-credit",
+  "bank": "AMEX",
+  "name": "THAI American Express Platinum Credit Card",
+  "nameTh": "บัตรเครดิตไทย อเมริกัน เอ็กซ์เพรส แพลทินัม",
+  "network": "American Express",
+  "annualFee": 5350,
+  "feeNote": "5,000 + VAT (ตั้งแต่ 5 ม.ค. 69)",
+  "minIncome": null,
+  "inviteOnly": false,
+  "reward": "miles",
+  "earn": {
+   "base": 25,
+   "dining": 25,
+   "online": 25,
+   "overseas": 12.5,
+   "travel": 25,
+   "grocery": 25,
+   "fuel": 25
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus"
+  ],
+  "caps": "2 คะแนน/25 บาท; 2 คะแนน=1 ไมล์ ROP; ต่างประเทศ 4 คะแนน/25 บาท (ถึง 31 ธ.ค. 69 เพดาน 100,000 บาท/8,000 คะแนนโบนัส); ซื้อตั๋ว THAI 2X ไมล์",
+  "perks": [
+   "เลานจ์ Miracle 2 ครั้ง/ปี",
+   "โบนัสต้อนรับ 10,000 ไมล์",
+   "Fast track ROP Gold"
+  ],
+  "url": "https://www.americanexpress.com/th/en/credit-cards/thai-platinum-credit-card/",
+  "confidence": "high",
+  "image": "img/amex-thai-platinum-credit.png"
+ },
+ {
+  "id": "amex-gold",
+  "bank": "AMEX",
+  "name": "American Express Gold Card",
+  "nameTh": "บัตรอเมริกัน เอ็กซ์เพรส โกลด์",
+  "network": "American Express",
+  "annualFee": 3210,
+  "feeNote": null,
+  "minIncome": 50000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": 50,
+   "dining": 50,
+   "online": 50,
+   "overseas": 50,
+   "travel": 50,
+   "grocery": 50,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "KrisFlyer",
+   "Asia Miles"
+  ],
+  "caps": "charge card; 1 MR/25 บาท; ต้องสมัคร Membership Rewards PLUS (แรกเข้า 1,000 + รายปี 1,000) จึงโอนไมล์ได้; 2 MR=1 ไมล์ ROP; รายได้ขั้นต่ำจากข่าว/ผลค้นหา",
+  "perks": [
+   "ประกันเดินทาง 2 ล้าน",
+   "ส่วนลดร้านอาหารโรงแรม",
+   "Purchase Protection"
+  ],
+  "url": "https://www.americanexpress.com/th/en/charge-cards/american-express-gold-card",
+  "confidence": "medium",
+  "image": "img/amex-gold.png"
+ },
+ {
+  "id": "amex-green",
+  "bank": "AMEX",
+  "name": "American Express Green Card",
+  "nameTh": "บัตรอเมริกัน เอ็กซ์เพรส",
+  "network": "American Express",
+  "annualFee": 1765,
+  "feeNote": null,
+  "minIncome": 30000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": 50,
+   "dining": 50,
+   "online": 50,
+   "overseas": 50,
+   "travel": 50,
+   "grocery": 50,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Royal Orchid Plus",
+   "KrisFlyer",
+   "Asia Miles"
+  ],
+  "caps": "charge card; 1 MR/25 บาท; ต้องสมัคร MR PLUS (แรกเข้า 1,000 + รายปี 1,000) จึงโอนไมล์ได้; รายได้ขั้นต่ำจากข่าว/ผลค้นหา",
+  "perks": [
+   "ประกันเดินทาง 1.5 ล้าน",
+   "Purchase Protection"
+  ],
+  "url": "https://www.americanexpress.com/th/en/charge-cards/american-express-green-card",
+  "confidence": "medium",
+  "image": "img/amex-green.png"
  },
  {
   "id": "krungsri-signature",
@@ -1192,7 +2973,8 @@ window.CARDS = [
    "ส่วนลดโรงแรม/ร้านอาหาร"
   ],
   "url": "https://www.krungsricard.com/en/product/creditcard/krungsri-signature",
-  "confidence": "medium"
+  "confidence": "medium",
+  "image": "img/krungsri-signature.png"
  },
  {
   "id": "krungsri-exclusive-signature",
@@ -1225,7 +3007,8 @@ window.CARDS = [
    "ประกันเดินทาง 20 ล้านบาท"
   ],
   "url": "https://www.krungsricard.com/en/product/creditcard/krungsri-exclusive-signature",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/krungsri-exclusive-signature.png"
  },
  {
   "id": "krungsri-private-banking",
@@ -1258,7 +3041,8 @@ window.CARDS = [
    "ประกันเดินทาง 35 ล้านบาท"
   ],
   "url": "https://www.krungsricard.com/en/product/creditcard/krungsri-private-banking",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/krungsri-private-banking.png"
  },
  {
   "id": "krungsri-jcb-ultimate",
@@ -1291,7 +3075,8 @@ window.CARDS = [
    "ประกันเดินทางสูงสุด 20 ล้านบาท"
   ],
   "url": "https://www.krungsricard.com/en/product/creditcard/krungsri-jcb-ultimate",
-  "confidence": "medium"
+  "confidence": "medium",
+  "image": "img/krungsri-jcb-ultimate.png"
  },
  {
   "id": "krungsri-jcb-platinum",
@@ -1324,7 +3109,8 @@ window.CARDS = [
    "ประกันเดินทาง 6 ล้านบาท"
   ],
   "url": "https://www.krungsricard.com/en/product/creditcard/krungsri-jcb",
-  "confidence": "medium"
+  "confidence": "medium",
+  "image": "img/krungsri-jcb-platinum.png"
  },
  {
   "id": "krungsri-visa-platinum",
@@ -1358,7 +3144,8 @@ window.CARDS = [
    "ส่วนลดร้านอาหารสูงสุด 20%"
   ],
   "url": "https://www.krungsricard.com/en/product/creditcard/krungsri-visa-platinum",
-  "confidence": "medium"
+  "confidence": "medium",
+  "image": "img/krungsri-visa-platinum.png"
  },
  {
   "id": "krungsri-platinum-mastercard",
@@ -1390,7 +3177,8 @@ window.CARDS = [
    "ผ่อน 0% Apple/การศึกษา"
   ],
   "url": "https://www.krungsricard.com/en/product/creditcard/krungsri-platinum-mastercard",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/krungsri-platinum-mastercard.png"
  },
  {
   "id": "krungsri-manchester-united-visa-platinum",
@@ -1421,7 +3209,8 @@ window.CARDS = [
    "ประกันเดินทาง 6 ล้านบาท"
   ],
   "url": "https://www.krungsricard.com/en/product/creditcard/manutd",
-  "confidence": "low"
+  "confidence": "low",
+  "image": null
  },
  {
   "id": "krungsri-doctor-card",
@@ -1453,7 +3242,8 @@ window.CARDS = [
    "คืนเงินบางจากสูงสุด 3.5%"
   ],
   "url": "https://www.krungsricard.com/en/product/creditcard/krungsri-doctor-card",
-  "confidence": "low"
+  "confidence": "low",
+  "image": null
  },
  {
   "id": "krungsri-now-platinum",
@@ -1490,7 +3280,8 @@ window.CARDS = [
    "ประกันเดินทาง 6 ล้านบาท"
   ],
   "url": "https://www.krungsricard.com/en/product/creditcard/now",
-  "confidence": "medium"
+  "confidence": "medium",
+  "image": "img/krungsri-now-platinum.png"
  },
  {
   "id": "krungsri-lady-titanium",
@@ -1522,7 +3313,8 @@ window.CARDS = [
    "ประกันอุบัติเหตุ 6 ล้านบาท"
   ],
   "url": "https://www.krungsricard.com/en/product/creditcard/krungsri-lady",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/krungsri-lady-titanium.png"
  },
  {
   "id": "homepro-visa-platinum",
@@ -1555,7 +3347,8 @@ window.CARDS = [
    "ประกันเดินทาง 6 ล้านบาท"
   ],
   "url": "https://www.krungsricard.com/en/product/creditcard/homepro-visa-platinum",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/homepro-visa-platinum.png"
  },
  {
   "id": "aia-visa-platinum",
@@ -1587,7 +3380,8 @@ window.CARDS = [
    "ประกันเดินทาง 6 ล้านบาท"
   ],
   "url": "https://www.krungsricard.com/en/product/creditcard/aia-visa-platinum",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/aia-visa-platinum.png"
  },
  {
   "id": "siam-takashimaya-visa",
@@ -1619,7 +3413,8 @@ window.CARDS = [
    "ประกันเดินทาง 6 ล้านบาท"
   ],
   "url": "https://www.krungsricard.com/en/product/creditcard/krungsri-siam-takashimaya-visa",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/siam-takashimaya-visa.png"
  },
  {
   "id": "siam-takashimaya-jcb",
@@ -1651,7 +3446,8 @@ window.CARDS = [
    "ประกันเดินทาง 6 ล้านบาท"
   ],
   "url": "https://www.krungsricard.com/en/product/creditcard/krungsri-siam-takashimaya-jcb",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/siam-takashimaya-jcb.png"
  },
  {
   "id": "siam-takashimaya-finest",
@@ -1684,7 +3480,8 @@ window.CARDS = [
    "ประกันเดินทาง 20 ล้านบาท"
   ],
   "url": "https://www.krungsricard.com/en/product/creditcard/siam-takashimaya-credit-card-finest",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/siam-takashimaya-finest.png"
  },
  {
   "id": "siam-takashimaya-finest-invitation",
@@ -1713,7 +3510,8 @@ window.CARDS = [
   "caps": "เฉพาะบัตรเชิญ; ไม่ได้ตรวจสอบรายละเอียด",
   "perks": [],
   "url": "https://www.krungsricard.com/en/product/creditcard/siam-takashimaya-credit-card-finest-invitation",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/siam-takashimaya-finest-invitation.png"
  },
  {
   "id": "tcc-privilege",
@@ -1746,7 +3544,8 @@ window.CARDS = [
    "ส่วนลด Oishi 10%"
   ],
   "url": "https://www.krungsricard.com/en/product/creditcard/tcc-privilege",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/tcc-privilege.png"
  },
  {
   "id": "krungsri-first-choice-visa-platinum",
@@ -1775,7 +3574,8 @@ window.CARDS = [
    "ผ่อน 0% สูงสุด 12 เดือน"
   ],
   "url": "https://www.krungsriconsumer.com/credit-card",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/krungsri-first-choice-visa-platinum.png"
  },
  {
   "id": "lotus-platinum-beyond",
@@ -1808,9 +3608,12 @@ window.CARDS = [
   },
   "milesPartners": [],
   "caps": "คืนเงินที่โลตัสสูงสุด 5% (ไม่ยืนยันเพดาน/ค่าธรรมเนียม)",
-  "perks": [],
+  "perks": [
+   "เครดิตเงินคืนน้ำมัน 3% บางจาก/เอสโซ่"
+  ],
   "url": "https://www.krungsriconsumer.com/credit-card",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/lotus-platinum-beyond.png"
  },
  {
   "id": "central-the1-luxe",
@@ -1837,14 +3640,15 @@ window.CARDS = [
   "caps": "แต้ม The 1 (ไม่แปลงไมล์โดยตรง); ไม่ยืนยันอัตรา",
   "perks": [],
   "url": "https://centralthe1card.com/en/Product/the1lux.html",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/central-the1-luxe.png"
  },
  {
   "id": "central-the1-black",
   "bank": "Krungsri",
   "name": "Central The 1 Black",
   "nameTh": "เซ็นทรัล เดอะวัน แบล็ค",
-  "network": "Visa Signature",
+  "network": "Mastercard",
   "annualFee": 9000,
   "feeNote": "บัตรหลัก 9,000 บาท",
   "minIncome": null,
@@ -1864,7 +3668,8 @@ window.CARDS = [
   "caps": "2X แต้ม The 1 ต่อ 25 บาท; ไม่แปลงไมล์โดยตรง",
   "perks": [],
   "url": "https://centralthe1card.com/en/product/the1black.html",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/central-the1-black.png"
  },
  {
   "id": "ttb-absolute",
@@ -1897,7 +3702,8 @@ window.CARDS = [
    "ประกันเดินทางสูงสุด 16 ล้านบาท"
   ],
   "url": "https://www.ttbbank.com/en/personal/credit-cards/hacked/ttb-absolute",
-  "confidence": "medium"
+  "confidence": "medium",
+  "image": "img/ttb-absolute.jpg"
  },
  {
   "id": "ttb-so-fast",
@@ -1927,7 +3733,8 @@ window.CARDS = [
    "ไม่ใช้สลิปเงินเดือน"
   ],
   "url": "https://www.ttbbank.com/en/personal/credit-cards/card-type/ttb-so-fast",
-  "confidence": "medium"
+  "confidence": "medium",
+  "image": "img/ttb-so-fast.png"
  },
  {
   "id": "ttb-so-smart",
@@ -1965,7 +3772,8 @@ window.CARDS = [
    "ผ่อน 0% 3 เดือน"
   ],
   "url": "https://www.ttbbank.com/en/personal/credit-cards/card-type/ttb-so-smart",
-  "confidence": "medium"
+  "confidence": "medium",
+  "image": "img/ttb-so-smart.jpg"
  },
  {
   "id": "ttb-so-chill",
@@ -1994,7 +3802,8 @@ window.CARDS = [
    "ประกันอุบัติเหตุ 6 ล้านบาท"
   ],
   "url": "https://www.ttbbank.com/en/personal/credit-cards/card-type/ttb-so-chill",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/ttb-so-chill.jpg"
  },
  {
   "id": "ttb-disney",
@@ -2023,7 +3832,8 @@ window.CARDS = [
    "ผ่อน 0% 6 เดือนที่ Disney Store"
   ],
   "url": "https://www.ttbbank.com/en/personal/credit-cards/card-type/ttb-disney-credit-cards",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/ttb-disney.png"
  },
  {
   "id": "ttb-global-house",
@@ -2058,7 +3868,8 @@ window.CARDS = [
   "caps": "ส่วนลด 3% ทันทีที่ Global House (5% วันพิเศษ) เท่านั้น",
   "perks": [],
   "url": "https://www.ttbbank.com/en/personal/credit-cards/card-type/global-house-credit-card",
-  "confidence": "medium"
+  "confidence": "medium",
+  "image": "img/ttb-global-house.png"
  },
  {
   "id": "ttb-reserve-signature",
@@ -2088,7 +3899,8 @@ window.CARDS = [
   "caps": "สำหรับลูกค้า ttb reserve (AUM 5 ล้านบาทขึ้นไป); ออนไลน์ 5 บาท/แต้ม, 3.5 แต้ม=1 Asia Mile; อัตราอื่นไม่ยืนยัน",
   "perks": [],
   "url": "https://www.ttbbank.com/en/ttb-reserve/privilege/signature",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/ttb-reserve-signature.png"
  },
  {
   "id": "ttb-reserve-infinite",
@@ -2118,18 +3930,19 @@ window.CARDS = [
   "caps": "สำหรับลูกค้า ttb reserve (AUM 30 ล้านบาทขึ้นไป); ออนไลน์ 5 บาท/แต้ม, 3.5 แต้ม=1 Asia Mile; อัตราอื่นไม่ยืนยัน",
   "perks": [],
   "url": "https://www.ttbbank.com/en/ttb-reserve/privilege/infinite",
-  "confidence": "low"
+  "confidence": "low",
+  "image": "img/ttb-reserve-infinite.png"
  },
  {
-  "id": "gsb-world-elite",
-  "bank": "GSB",
-  "name": "GSB World Elite",
-  "nameTh": null,
-  "network": "Mastercard World Elite",
-  "annualFee": 10000,
-  "feeNote": "ฟรีเมื่อใช้จ่าย 720,000 บาท/ปี หรือเงินฝากเฉลี่ย 50 ล้านบาท",
+  "id": "central-the1-redz",
+  "bank": "Krungsri",
+  "name": "Central The 1 REDZ (Limited)",
+  "nameTh": "เซ็นทรัล เดอะวัน เรดซ์ (ลิมิเต็ด)",
+  "network": "Mastercard",
+  "annualFee": null,
+  "feeNote": null,
   "minIncome": null,
-  "inviteOnly": true,
+  "inviteOnly": false,
   "reward": "points",
   "earn": {
    "base": null,
@@ -2142,23 +3955,193 @@ window.CARDS = [
   },
   "cashback": null,
   "milesPartners": [],
-  "caps": "แต้ม 15 บาท=1 คะแนนในหมวดร้านอาหาร ช้อปปิ้ง ท่องเที่ยว; แลก AirAsia 5,000 คะแนน=2,000 แต้ม; ไม่พบอัตราแลกไมล์ ROP ยืนยัน",
+  "caps": "รับคะแนน The 1 สูงสุด 3X + ส่วนลดสูงสุด 5% ร้านในเครือเซ็นทรัล; ไม่แปลงไมล์โดยตรง (ไม่ยืนยันเพดาน/ค่าธรรมเนียม)",
   "perks": [
-   "DragonPass ลาวจน์ 5 ครั้ง/ปี",
-   "ประกันอุบัติเหตุการเดินทาง 40 ล้านบาท",
-   "รถรับส่งสนามบิน 2 ครั้ง/ปี"
+   "ส่วนลดสูงสุด 5% กว่า 5,000 ร้านค้าเครือเซ็นทรัล"
   ],
-  "url": "https://www.gsb.or.th/",
-  "confidence": "low"
+  "url": "https://www.krungsriconsumer.com/credit-card",
+  "confidence": "low",
+  "image": "img/central-the1-redz.png"
+ },
+ {
+  "id": "krungsri-first-choice-xu",
+  "bank": "Krungsri",
+  "name": "Krungsri XU by First Choice Digital",
+  "nameTh": "เอ็กซ์ยู บาย เฟิร์สช้อยส์ (บัตรเครดิตดิจิทัล)",
+  "network": "Visa Platinum",
+  "annualFee": null,
+  "feeNote": null,
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [],
+  "caps": "ผ่อน 0% สูงสุด 6 เดือนทุกอย่าง; แลกพอยท์เป็นเงินคืนสูงสุด 18% (ไม่ยืนยันเพดาน)",
+  "perks": [
+   "ประกันซื้อสินค้าออนไลน์สูงสุด 20,000 บาท",
+   "โค้ดส่วนลดแบรนด์ดังทุกเดือน"
+  ],
+  "url": "https://www.krungsriconsumer.com/credit-card",
+  "confidence": "low",
+  "image": "img/krungsri-first-choice-xu.png"
+ },
+ {
+  "id": "lotus-platinum-reward",
+  "bank": "Krungsri",
+  "name": "Lotus's Credit Card Platinum Reward",
+  "nameTh": "โลตัส แพลทินัม รีวอร์ด",
+  "network": "Visa Platinum",
+  "annualFee": null,
+  "feeNote": null,
+  "minIncome": null,
+  "inviteOnly": false,
+  "reward": "cashback",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": 4.0,
+   "fuel": 2.0
+  },
+  "milesPartners": [],
+  "caps": "คืนเงินที่โลตัสสูงสุด 4%; คืนเงินน้ำมันบางจาก/เอสโซ่ 2% (ไม่ยืนยันเพดาน/ค่าธรรมเนียม)",
+  "perks": [
+   "เครดิตเงินคืนน้ำมัน 2% ไม่มีขั้นต่ำ"
+  ],
+  "url": "https://www.krungsriconsumer.com/credit-card",
+  "confidence": "low",
+  "image": "img/lotus-platinum-reward.png"
+ },
+ {
+  "id": "aeon-bigc-world-mastercard",
+  "bank": "AEON",
+  "issuer": "AEON Thana Sinsap (Thailand) PLC",
+  "name": "Big C World Mastercard",
+  "nameTh": "บัตรเครดิตบิ๊กซี เวิลด์ มาสเตอร์การ์ด",
+  "network": "Mastercard",
+  "annualFee": null,
+  "feeNote": null,
+  "minIncome": null,
+  "inviteOnly": false,
+  "reward": "cashback",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [],
+  "caps": "ยุติให้บริการ: AEON หยุดออก/ต่ออายุบัตรบิ๊กซีตั้งแต่ 1 เม.ย. 2569 และสิทธิประโยชน์สิ้นสุด 30 ก.ย. 2569 (ความร่วมมือกับบิ๊กซีสิ้นสุด 31 มี.ค. 2569); ส่วนลดทันที 5% ที่บิ๊กซี (7% ออนไลน์); ไม่สะสมไมล์",
+  "perks": [
+   "ส่วนลดทันที 5% ที่บิ๊กซี",
+   "ส่วนลด 7% บิ๊กซีออนไลน์",
+   "ฟรีค่าธรรมเนียมรายปีเมื่อใช้ที่บิ๊กซีปีละครั้ง"
+  ],
+  "url": "https://www.aeon.co.th/aeon/news-events/notification-of-cessation-of-big-c",
+  "confidence": "low",
+  "image": null,
+  "kind": "credit",
+  "discontinued": true
+ },
+ {
+  "id": "aeon-bigc-platinum-visa",
+  "bank": "AEON",
+  "issuer": "AEON Thana Sinsap (Thailand) PLC",
+  "name": "Big C Platinum Visa",
+  "nameTh": "บัตรเครดิตบิ๊กซี แพลทินัม วีซ่า",
+  "network": "Visa",
+  "annualFee": null,
+  "feeNote": null,
+  "minIncome": null,
+  "inviteOnly": false,
+  "reward": "cashback",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [],
+  "caps": "ยุติให้บริการ: AEON หยุดออก/ต่ออายุบัตรบิ๊กซีตั้งแต่ 1 เม.ย. 2569 และสิทธิประโยชน์สิ้นสุด 30 ก.ย. 2569 (ความร่วมมือกับบิ๊กซีสิ้นสุด 31 มี.ค. 2569); ส่วนลด 3% สูงสุด 1,000 บาท/เดือน/บัตร; ไม่สะสมไมล์",
+  "perks": [
+   "ส่วนลดทันที 3% ที่บิ๊กซี/ออนไลน์",
+   "ส่วนลดสูงสุด 1,000 บาท/เดือน",
+   "ผ่อน 0% ที่บิ๊กซี"
+  ],
+  "url": "https://www.aeon.co.th/aeon/news-events/notification-of-cessation-of-big-c",
+  "confidence": "low",
+  "image": null,
+  "kind": "credit",
+  "discontinued": true
+ },
+ {
+  "id": "gsb-world-elite",
+  "bank": "GSB",
+  "name": "GSB World Elite",
+  "nameTh": "บัตรเครดิตธนาคารออมสิน เวิลด์ อีลิท",
+  "network": "Mastercard World Elite",
+  "annualFee": 10000,
+  "feeNote": "บัตรเสริม 10,000 บาท; ค่าแรกเข้า/รายปีตามประกาศ มีผล 1 ก.ค. 2569",
+  "minIncome": null,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [],
+  "caps": "15 บาท=1 คะแนนในหมวดร้านอาหาร ช้อปปิ้ง ท่องเที่ยว สุขภาพความงาม (นอกนั้น 25 บาท=1); แลกได้เฉพาะสลากออมสินพิเศษ 1,000 คะแนน=100 บาท; ไม่มีการแลกไมล์ (ข้อกำหนดคะแนน 2569)",
+  "perks": [
+   "DragonPass ลาวจน์ 5 สิทธิ์/ปี",
+   "รถรับส่งสนามบิน 2 ครั้ง",
+   "ประกันอุบัติเหตุการเดินทาง"
+  ],
+  "url": "https://www.gsb.or.th/personals/world-elite/",
+  "confidence": "high",
+  "image": "img/gsb-world-elite.jpg"
  },
  {
   "id": "gsb-world",
   "bank": "GSB",
   "name": "GSB World",
-  "nameTh": null,
+  "nameTh": "บัตรเครดิตธนาคารออมสิน เวิลด์",
   "network": "Mastercard World",
   "annualFee": 3000,
-  "feeNote": "ฟรีเมื่อใช้จ่าย 240,000 บาท/ปี หรือ 12 ครั้ง",
+  "feeNote": "บัตรเสริม 1,500 บาท; ค่าแรกเข้า/รายปีตามประกาศ มีผล 1 ก.ค. 2569",
   "minIncome": 50000,
   "inviteOnly": false,
   "reward": "points",
@@ -2173,139 +4156,56 @@ window.CARDS = [
   },
   "cashback": null,
   "milesPartners": [],
-  "caps": "แต้ม 15 บาท=1 คะแนนในหมวดโบนัส; แลก AirAsia 5,000 คะแนน=2,000 แต้ม; ไม่พบอัตราแลกไมล์ ROP ยืนยัน",
+  "caps": "แต้มโบนัส 15 บาท=1 คะแนนในหมวดที่กำหนด (ที่เหลือ 25 บาท=1); แลกได้เฉพาะสลากออมสินพิเศษ 1,000 คะแนน=100 บาท; ไม่มีการแลกไมล์ (ข้อกำหนดคะแนน 2569)",
   "perks": [
-   "DragonPass ลาวจน์ 1 ครั้ง/ปี",
-   "ประกันเดินทาง AIG",
-   "คุ้มครองโจรกรรมบ้าน 50,000 บาท/ปี"
+   "DragonPass ลาวจน์ 1 สิทธิ์/ปี",
+   "Miracle Lounge เมื่อใช้จ่ายสะสมครบเกณฑ์",
+   "รถรับส่งสนามบินเมื่อใช้จ่าย 500,000 บาท/ปี"
   ],
-  "url": "https://www.gsb.or.th/",
-  "confidence": "low"
+  "url": "https://www.gsb.or.th/personals/world-credit-card/",
+  "confidence": "high",
+  "image": "img/gsb-world.png"
  },
  {
   "id": "gsb-prestige",
   "bank": "GSB",
   "name": "GSB Prestige",
-  "nameTh": null,
+  "nameTh": "บัตรเครดิตธนาคารออมสิน เพรสทีจ",
   "network": "Visa Signature",
   "annualFee": 5000,
-  "feeNote": null,
+  "feeNote": "บัตรเสริม 5,000 บาท; ค่าแรกเข้า/รายปีตามประกาศ มีผล 1 ก.ค. 2569",
   "minIncome": null,
   "inviteOnly": false,
   "reward": "points",
   "earn": {
-   "base": 25,
-   "dining": 15,
-   "online": 25,
-   "overseas": 25,
-   "travel": 15,
-   "grocery": 25,
-   "fuel": 25
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
   },
   "cashback": null,
-  "milesPartners": [
-   "Royal Orchid Plus"
+  "milesPartners": [],
+  "caps": "15 บาท=1 คะแนนในหมวดร้านอาหาร ช้อปปิ้ง ท่องเที่ยว สุขภาพความงาม; ไม่นับน้ำมัน/ซุปเปอร์มาร์เก็ต; แลกได้เฉพาะสลากออมสินพิเศษ 1,000 คะแนน=100 บาท; ไม่มีการแลกไมล์ (ข้อกำหนดคะแนน 2569)",
+  "perks": [
+   "Miracle Lounge ตามเกณฑ์ยอดใช้จ่าย",
+   "ประกันอุบัติเหตุการเดินทาง",
+   "สิทธิ์หมวดสุขภาพและความงาม"
   ],
-  "caps": "15 บาท=1 คะแนนในหมวดร้านอาหาร ช้อปปิ้ง ท่องเที่ยว สุขภาพ ความงาม; ROP 1 คะแนน=1 ไมล์ (แหล่งรอง checkraka); ไมล์อาจมีค่าธรรมเนียมแลก",
-  "perks": [],
-  "url": "https://www.gsb.or.th/",
-  "confidence": "low"
+  "url": "https://www.gsb.or.th/personals/prestige-credit-card/",
+  "confidence": "high",
+  "image": "img/gsb-prestige.jpg"
  },
  {
   "id": "gsb-precious",
   "bank": "GSB",
   "name": "GSB Precious",
-  "nameTh": null,
+  "nameTh": "บัตรเครดิตธนาคารออมสิน พรีเชียส",
   "network": "Visa Platinum",
   "annualFee": 1500,
-  "feeNote": null,
-  "minIncome": 15000,
-  "inviteOnly": false,
-  "reward": "points",
-  "earn": {
-   "base": 75,
-   "dining": 75,
-   "online": 75,
-   "overseas": 75,
-   "travel": 75,
-   "grocery": 75,
-   "fuel": 75
-  },
-  "cashback": null,
-  "milesPartners": [
-   "Royal Orchid Plus"
-  ],
-  "caps": "25 บาท=1 คะแนน; ROP 3 คะแนน=1 ไมล์ (แหล่งรอง)",
-  "perks": [],
-  "url": "https://www.gsb.or.th/",
-  "confidence": "low"
- },
- {
-  "id": "gsb-precious-olympic",
-  "bank": "GSB",
-  "name": "GSB Precious Olympic",
-  "nameTh": null,
-  "network": "Visa Platinum",
-  "annualFee": 1500,
-  "feeNote": null,
-  "minIncome": 15000,
-  "inviteOnly": false,
-  "reward": "points",
-  "earn": {
-   "base": 75,
-   "dining": 75,
-   "online": 75,
-   "overseas": 75,
-   "travel": 75,
-   "grocery": 75,
-   "fuel": 75
-  },
-  "cashback": null,
-  "milesPartners": [
-   "Royal Orchid Plus"
-  ],
-  "caps": "25 บาท=1 คะแนน; ROP 3 คะแนน=1 ไมล์ (สมมติเหมือน Precious)",
-  "perks": [],
-  "url": "https://www.gsb.or.th/",
-  "confidence": "low"
- },
- {
-  "id": "gsb-tqm-infinity",
-  "bank": "GSB",
-  "name": "GSB TQM Infinity",
-  "nameTh": null,
-  "network": "Visa Platinum",
-  "annualFee": 1500,
-  "feeNote": null,
-  "minIncome": 15000,
-  "inviteOnly": false,
-  "reward": "points",
-  "earn": {
-   "base": 75,
-   "dining": 75,
-   "online": 75,
-   "overseas": 75,
-   "travel": 75,
-   "grocery": 75,
-   "fuel": 75
-  },
-  "cashback": null,
-  "milesPartners": [
-   "Royal Orchid Plus"
-  ],
-  "caps": "25 บาท=1 คะแนน; ROP 3 คะแนน=1 ไมล์ (สมมติเหมือน Precious)",
-  "perks": [],
-  "url": "https://www.gsb.or.th/",
-  "confidence": "low"
- },
- {
-  "id": "gsb-ecommerce",
-  "bank": "GSB",
-  "name": "GSB E-Commerce",
-  "nameTh": null,
-  "network": "Mastercard Platinum",
-  "annualFee": 1500,
-  "feeNote": null,
+  "feeNote": "ค่าแรกเข้าบัตรหลัก 1,000 บาท; บัตรเสริม 750 บาท; ค่าแรกเข้า/รายปีตามประกาศ มีผล 1 ก.ค. 2569",
   "minIncome": 15000,
   "inviteOnly": false,
   "reward": "points",
@@ -2320,166 +4220,431 @@ window.CARDS = [
   },
   "cashback": null,
   "milesPartners": [],
-  "caps": "25 บาท=1 คะแนน; ไม่พบการแลกไมล์",
-  "perks": [],
-  "url": "https://www.gsb.or.th/",
-  "confidence": "low"
+  "caps": "GSB Reward Point 25 บาท=1 คะแนน; แลกได้เฉพาะสลากออมสินพิเศษ 1,000 คะแนน=100 บาท; ไม่มีการแลกไมล์ (ข้อกำหนดคะแนน 2569)",
+  "perks": [
+   "Miracle Lounge เมื่อใช้จ่ายสะสม 300,000 บาท/ปี",
+   "ประกันอุบัติเหตุการเดินทาง",
+   "ปลอดดอกเบี้ยสูงสุด 45 วัน"
+  ],
+  "url": "https://www.gsb.or.th/personals/gsb-precious-credit-card/",
+  "confidence": "high",
+  "image": "img/gsb-precious.jpg"
  },
  {
-  "id": "gsb-premium",
+  "id": "gsb-ecommerce",
   "bank": "GSB",
-  "name": "GSB Premium",
-  "nameTh": null,
-  "network": "Visa Platinum",
-  "annualFee": 500,
-  "feeNote": null,
+  "name": "GSB Mastercard Platinum (E-Commerce)",
+  "nameTh": "บัตรเครดิตธนาคารออมสิน มาสเตอร์การ์ด แพลทินัม",
+  "network": "Mastercard Platinum",
+  "annualFee": 1500,
+  "feeNote": "บัตรเสริม 750 บาท; ค่าแรกเข้า/รายปีตามประกาศ มีผล 1 ก.ค. 2569",
   "minIncome": 15000,
   "inviteOnly": false,
   "reward": "points",
   "earn": {
-   "base": 75,
-   "dining": 75,
-   "online": 75,
-   "overseas": 75,
-   "travel": 75,
-   "grocery": 75,
-   "fuel": 75
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
   },
   "cashback": null,
-  "milesPartners": [
-   "Royal Orchid Plus"
+  "milesPartners": [],
+  "caps": "GSB Reward Point 25 บาท=1 คะแนน; แลกได้เฉพาะสลากออมสินพิเศษ 1,000 คะแนน=100 บาท; ไม่มีการแลกไมล์ (ข้อกำหนดคะแนน 2569)",
+  "perks": [
+   "ช้อปออนไลน์ปลอดภัย",
+   "Miracle Lounge ตามเกณฑ์ยอดใช้จ่าย",
+   "ปลอดดอกเบี้ยสูงสุด 45 วัน"
   ],
-  "caps": "25 บาท=1 คะแนน; ROP 3 คะแนน=1 ไมล์ (แหล่งรอง)",
-  "perks": [],
-  "url": "https://www.gsb.or.th/",
-  "confidence": "medium"
+  "url": "https://www.gsb.or.th/personals/ecommerce/",
+  "confidence": "high",
+  "image": "img/gsb-ecommerce.png"
  },
  {
   "id": "icbc-splendorplus-unionpay-platinum",
   "bank": "ICBC",
   "name": "ICBC SplendorPlus UnionPay Platinum",
-  "nameTh": null,
+  "nameTh": "บัตรเครดิต ICBC (ไทย) สเพลนเดอร์พลัส ยูเนียนเพย์ แพลทินัม",
   "network": "UnionPay Platinum",
-  "annualFee": 3000,
-  "feeNote": "ฟรีปีแรก",
+  "annualFee": 4000,
+  "feeNote": "บัตรเสริม 1,500 บาท; ฟรี 5 ปีแรก (ประกาศ 1 ก.ค. 2569)",
   "minIncome": 15000,
   "inviteOnly": false,
   "reward": "points",
   "earn": {
-   "base": null,
-   "dining": null,
-   "online": null,
-   "overseas": null,
-   "travel": null,
-   "grocery": null,
-   "fuel": null
+   "base": 80,
+   "dining": 80,
+   "online": 80,
+   "overseas": 80,
+   "travel": 80,
+   "grocery": 80,
+   "fuel": 80
   },
   "cashback": null,
-  "milesPartners": [],
-  "caps": "รายได้ขั้นต่ำ 15,000 (คนไทย) / 35,000 (จีน) / 100,000 (อื่นๆ); ไม่พบโปรแกรมแต้ม/ไมล์",
+  "milesPartners": [
+   "Bangkok Airways FlyerBonus",
+   "KrisFlyer"
+  ],
+  "caps": "ICBC Everyday Rewards 1 บาท=1 คะแนน; โอนเป็นไมล์ Bangkok Airways FlyerBonus 40,000 คะแนน=500 ไมล์ (80 บาท/ไมล์), KrisFlyer 100,000 คะแนน=1,111 ไมล์ (~90 บาท/ไมล์); ไม่มี Royal Orchid Plus",
   "perks": [
    "บัญชีคู่ CNY/THB",
+   "Miracle Lounge เมื่อใช้จ่ายสะสม 80,000 บาท",
    "ปลอดดอกเบี้ยสูงสุด 56 วัน"
   ],
-  "url": "https://www.icbcthai.com/ICBC/海外分行/工银泰国网站/en/PersonalBanking/BankCard/CreditCard/ICBCThaiCreditCard",
-  "confidence": "low"
+  "url": "https://www.icbcthai.com/en/column/1438059017468788825.html",
+  "confidence": "medium",
+  "image": "img/icbc-splendorplus-unionpay-platinum.jpg"
  },
  {
   "id": "icbc-splendorplus-unionpay-gold",
   "bank": "ICBC",
   "name": "ICBC SplendorPlus UnionPay Gold",
-  "nameTh": null,
+  "nameTh": "บัตรเครดิต ICBC (ไทย) สเพลนเดอร์พลัส ยูเนียนเพย์ โกลด์",
   "network": "UnionPay Gold",
-  "annualFee": 3000,
-  "feeNote": "ฟรีปีแรก",
+  "annualFee": 1000,
+  "feeNote": "บัตรเสริม 500 บาท; ฟรี 5 ปีแรก (ประกาศ 1 ก.ค. 2569)",
   "minIncome": 15000,
   "inviteOnly": false,
   "reward": "points",
   "earn": {
-   "base": null,
-   "dining": null,
-   "online": null,
-   "overseas": null,
-   "travel": null,
-   "grocery": null,
-   "fuel": null
+   "base": 80,
+   "dining": 80,
+   "online": 80,
+   "overseas": 80,
+   "travel": 80,
+   "grocery": 80,
+   "fuel": 80
   },
   "cashback": null,
-  "milesPartners": [],
-  "caps": "รายได้ขั้นต่ำ 15,000 (คนไทย) / 35,000 (จีน) / 100,000 (อื่นๆ); ไม่พบโปรแกรมแต้ม/ไมล์",
+  "milesPartners": [
+   "Bangkok Airways FlyerBonus",
+   "KrisFlyer"
+  ],
+  "caps": "ICBC Everyday Rewards 1 บาท=1 คะแนน; โอนเป็นไมล์ Bangkok Airways FlyerBonus 40,000 คะแนน=500 ไมล์ (80 บาท/ไมล์), KrisFlyer 100,000 คะแนน=1,111 ไมล์ (~90 บาท/ไมล์); ไม่มี Royal Orchid Plus",
   "perks": [
    "บัญชีคู่ CNY/THB",
    "ปลอดดอกเบี้ยสูงสุด 56 วัน"
   ],
-  "url": "https://www.icbcthai.com/ICBC/海外分行/工银泰国网站/en/PersonalBanking/BankCard/CreditCard/ICBCThaiCreditCard",
-  "confidence": "low"
+  "url": "https://www.icbcthai.com/en/column/1438059017468788825.html",
+  "confidence": "medium",
+  "image": "img/icbc-splendorplus-unionpay-gold.jpg"
+ },
+ {
+  "id": "icbc-splendorplus-unionpay-silver",
+  "bank": "ICBC",
+  "name": "ICBC SplendorPlus UnionPay Classic (Silver)",
+  "nameTh": "บัตรเครดิต ICBC (ไทย) สเพลนเดอร์พลัส ยูเนียนเพย์ คลาสสิก",
+  "network": "UnionPay Classic",
+  "annualFee": 500,
+  "feeNote": "บัตรเสริม 300 บาท; ฟรี 5 ปีแรก (ประกาศ 1 ก.ค. 2569)",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": 80,
+   "dining": 80,
+   "online": 80,
+   "overseas": 80,
+   "travel": 80,
+   "grocery": 80,
+   "fuel": 80
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Bangkok Airways FlyerBonus",
+   "KrisFlyer"
+  ],
+  "caps": "ICBC Everyday Rewards 1 บาท=1 คะแนน; โอนเป็นไมล์ Bangkok Airways FlyerBonus 40,000 คะแนน=500 ไมล์ (80 บาท/ไมล์), KrisFlyer 100,000 คะแนน=1,111 ไมล์ (~90 บาท/ไมล์); ไม่มี Royal Orchid Plus",
+  "perks": [
+   "บัญชีคู่ CNY/THB",
+   "ปลอดดอกเบี้ยสูงสุด 56 วัน"
+  ],
+  "url": "https://www.icbcthai.com/en/column/1438059017468788825.html",
+  "confidence": "low",
+  "image": "img/icbc-splendorplus-unionpay-silver.jpg"
  },
  {
   "id": "icbc-visa-platinum",
   "bank": "ICBC",
   "name": "ICBC Visa Platinum",
-  "nameTh": null,
+  "nameTh": "บัตรเครดิต ICBC (ไทย) วีซ่า แพลทินัม",
   "network": "Visa Platinum",
-  "annualFee": 3000,
-  "feeNote": "ฟรีปีแรก",
+  "annualFee": 4000,
+  "feeNote": "บัตรเสริม 1,500 บาท; ฟรี 5 ปีแรก (ประกาศ 1 ก.ค. 2569)",
   "minIncome": 15000,
   "inviteOnly": false,
   "reward": "points",
   "earn": {
-   "base": null,
-   "dining": null,
-   "online": null,
-   "overseas": null,
-   "travel": null,
-   "grocery": null,
-   "fuel": null
+   "base": 80,
+   "dining": 80,
+   "online": 80,
+   "overseas": 80,
+   "travel": 80,
+   "grocery": 80,
+   "fuel": 80
   },
   "cashback": null,
-  "milesPartners": [],
-  "caps": "รายได้ขั้นต่ำ 15,000 (คนไทย) / 35,000 (จีน) / 100,000 (อื่นๆ); ไม่พบโปรแกรมแต้ม/ไมล์",
+  "milesPartners": [
+   "Bangkok Airways FlyerBonus",
+   "KrisFlyer"
+  ],
+  "caps": "ICBC Everyday Rewards 1 บาท=1 คะแนน; โอนเป็นไมล์ Bangkok Airways FlyerBonus 40,000 คะแนน=500 ไมล์ (80 บาท/ไมล์), KrisFlyer 100,000 คะแนน=1,111 ไมล์ (~90 บาท/ไมล์); ไม่มี Royal Orchid Plus",
   "perks": [
+   "Miracle Lounge เมื่อใช้จ่ายสะสม 80,000 บาท",
    "ปลอดดอกเบี้ยสูงสุด 56 วัน"
   ],
-  "url": "https://www.icbcthai.com/ICBC/海外分行/工银泰国网站/en/PersonalBanking/BankCard/CreditCard/ICBCThaiCreditCard",
-  "confidence": "low"
+  "url": "https://www.icbcthai.com/en/column/1438059017468788825.html",
+  "confidence": "medium",
+  "image": "img/icbc-visa-platinum.jpg"
  },
  {
   "id": "icbc-visa-gold",
   "bank": "ICBC",
   "name": "ICBC Visa Gold",
-  "nameTh": null,
+  "nameTh": "บัตรเครดิต ICBC (ไทย) วีซ่า โกลด์",
   "network": "Visa Gold",
-  "annualFee": 3000,
-  "feeNote": "ฟรีปีแรก",
+  "annualFee": 1000,
+  "feeNote": "บัตรเสริม 500 บาท; ฟรี 5 ปีแรก (ประกาศ 1 ก.ค. 2569)",
   "minIncome": 15000,
   "inviteOnly": false,
   "reward": "points",
   "earn": {
-   "base": null,
-   "dining": null,
-   "online": null,
-   "overseas": null,
-   "travel": null,
-   "grocery": null,
-   "fuel": null
+   "base": 80,
+   "dining": 80,
+   "online": 80,
+   "overseas": 80,
+   "travel": 80,
+   "grocery": 80,
+   "fuel": 80
   },
   "cashback": null,
-  "milesPartners": [],
-  "caps": "รายได้ขั้นต่ำ 15,000 (คนไทย) / 35,000 (จีน) / 100,000 (อื่นๆ); ไม่พบโปรแกรมแต้ม/ไมล์",
+  "milesPartners": [
+   "Bangkok Airways FlyerBonus",
+   "KrisFlyer"
+  ],
+  "caps": "ICBC Everyday Rewards 1 บาท=1 คะแนน; โอนเป็นไมล์ Bangkok Airways FlyerBonus 40,000 คะแนน=500 ไมล์ (80 บาท/ไมล์), KrisFlyer 100,000 คะแนน=1,111 ไมล์ (~90 บาท/ไมล์); ไม่มี Royal Orchid Plus",
   "perks": [
    "ปลอดดอกเบี้ยสูงสุด 56 วัน"
   ],
-  "url": "https://www.icbcthai.com/ICBC/海外分行/工银泰国网站/en/PersonalBanking/BankCard/CreditCard/ICBCThaiCreditCard",
-  "confidence": "low"
+  "url": "https://www.icbcthai.com/en/column/1438059017468788825.html",
+  "confidence": "medium",
+  "image": "img/icbc-visa-gold.jpg"
+ },
+ {
+  "id": "icbc-visa-classic",
+  "bank": "ICBC",
+  "name": "ICBC Visa Classic",
+  "nameTh": "บัตรเครดิต ICBC (ไทย) วีซ่า คลาสสิก",
+  "network": "Visa Classic",
+  "annualFee": 500,
+  "feeNote": "บัตรเสริม 300 บาท; ฟรี 5 ปีแรก (ประกาศ 1 ก.ค. 2569)",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": 80,
+   "dining": 80,
+   "online": 80,
+   "overseas": 80,
+   "travel": 80,
+   "grocery": 80,
+   "fuel": 80
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Bangkok Airways FlyerBonus",
+   "KrisFlyer"
+  ],
+  "caps": "ICBC Everyday Rewards 1 บาท=1 คะแนน; โอนเป็นไมล์ Bangkok Airways FlyerBonus 40,000 คะแนน=500 ไมล์ (80 บาท/ไมล์), KrisFlyer 100,000 คะแนน=1,111 ไมล์ (~90 บาท/ไมล์); ไม่มี Royal Orchid Plus",
+  "perks": [
+   "ปลอดดอกเบี้ยสูงสุด 56 วัน"
+  ],
+  "url": "https://www.icbcthai.com/en/column/1438059017468788825.html",
+  "confidence": "low",
+  "image": "img/icbc-visa-classic.jpg"
+ },
+ {
+  "id": "icbc-global-travel-platinum",
+  "bank": "ICBC",
+  "name": "ICBC Global Travel Platinum",
+  "nameTh": "บัตรเครดิต ICBC (ไทย) โกลบอล แทรเวล แพลทินัม",
+  "network": "Visa Platinum",
+  "annualFee": 4000,
+  "feeNote": "บัตรเสริม 1,500 บาท; ฟรี 5 ปีแรก (ประกาศ 1 ก.ค. 2569); อัตราสมมติเท่า Visa Platinum",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": 80,
+   "dining": 80,
+   "online": 80,
+   "overseas": 80,
+   "travel": 80,
+   "grocery": 80,
+   "fuel": 80
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Bangkok Airways FlyerBonus",
+   "KrisFlyer"
+  ],
+  "caps": "ICBC Everyday Rewards 1 บาท=1 คะแนน; โอนเป็นไมล์ Bangkok Airways FlyerBonus 40,000 คะแนน=500 ไมล์ (80 บาท/ไมล์), KrisFlyer 100,000 คะแนน=1,111 ไมล์ (~90 บาท/ไมล์); ไม่มี Royal Orchid Plus; ใช้จ่าย 1 USD=30 คะแนน, 1 EUR=40 คะแนน",
+  "perks": [
+   "หลายสกุลเงิน THB/USD/EUR ในบัตรเดียว",
+   "Miracle Lounge เมื่อใช้จ่ายสะสม 80,000 บาท",
+   "ไม่มีค่าความเสี่ยงอัตราแลกเปลี่ยน USD/EUR"
+  ],
+  "url": "https://www.icbcthai.com/en/column/1438059017468788863.html",
+  "confidence": "medium",
+  "image": "img/icbc-global-travel-platinum.jpg"
+ },
+ {
+  "id": "icbc-global-travel-gold",
+  "bank": "ICBC",
+  "name": "ICBC Global Travel Gold",
+  "nameTh": "บัตรเครดิต ICBC (ไทย) โกลบอล แทรเวล โกลด์",
+  "network": "Visa Gold",
+  "annualFee": 1000,
+  "feeNote": "บัตรเสริม 500 บาท; ฟรี 5 ปีแรก (ประกาศ 1 ก.ค. 2569); อัตราสมมติเท่า Visa Gold",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": 80,
+   "dining": 80,
+   "online": 80,
+   "overseas": 80,
+   "travel": 80,
+   "grocery": 80,
+   "fuel": 80
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Bangkok Airways FlyerBonus",
+   "KrisFlyer"
+  ],
+  "caps": "ICBC Everyday Rewards 1 บาท=1 คะแนน; โอนเป็นไมล์ Bangkok Airways FlyerBonus 40,000 คะแนน=500 ไมล์ (80 บาท/ไมล์), KrisFlyer 100,000 คะแนน=1,111 ไมล์ (~90 บาท/ไมล์); ไม่มี Royal Orchid Plus; ใช้จ่าย 1 USD=30 คะแนน, 1 EUR=40 คะแนน",
+  "perks": [
+   "หลายสกุลเงิน THB/USD/EUR ในบัตรเดียว",
+   "ไม่มีค่าความเสี่ยงอัตราแลกเปลี่ยน USD/EUR"
+  ],
+  "url": "https://www.icbcthai.com/en/column/1438059017468788863.html",
+  "confidence": "low",
+  "image": "img/icbc-global-travel-gold.jpg"
+ },
+ {
+  "id": "icbc-horoscope-unionpay-platinum",
+  "bank": "ICBC",
+  "name": "ICBC Horoscope UnionPay Platinum",
+  "nameTh": "บัตรเครดิต ICBC (ไทย) โฮโรสโคป ยูเนียนเพย์ แพลทินัม",
+  "network": "UnionPay Platinum",
+  "annualFee": 3000,
+  "feeNote": "บัตรเสริม 3,000 บาท; ฟรีปีแรก",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": 80,
+   "dining": 80,
+   "online": 80,
+   "overseas": 80,
+   "travel": 40,
+   "grocery": 80,
+   "fuel": 80
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Bangkok Airways FlyerBonus",
+   "KrisFlyer"
+  ],
+  "caps": "ICBC Everyday Rewards 1 บาท=1 คะแนน; โอนเป็นไมล์ Bangkok Airways FlyerBonus 40,000 คะแนน=500 ไมล์ (80 บาท/ไมล์), KrisFlyer 100,000 คะแนน=1,111 ไมล์ (~90 บาท/ไมล์); ไม่มี Royal Orchid Plus; หมวดท่องเที่ยว/สายการบิน x2 คะแนน, เดือนเกิด x5; เงินคืนร้านอาหาร 4%/น้ำมัน 6% ต้องใช้จ่ายหมวดอื่น 3,000 บาท/เดือน",
+  "perks": [
+   "DragonPass ลาวจน์ซื้อราคาพิเศษ 6 ครั้ง/ปี",
+   "เงินคืนน้ำมัน 6% (จำกัด 120 บาท/เดือน)",
+   "ผ่อน 0% 3 เดือน"
+  ],
+  "url": "https://www.icbcthai.com/en/column/1438059017535897672.html",
+  "confidence": "medium",
+  "image": "img/icbc-horoscope-unionpay-platinum.png"
+ },
+ {
+  "id": "icbc-any-mastercard-platinum",
+  "bank": "ICBC",
+  "name": "ICBC ANY Mastercard Platinum",
+  "nameTh": "บัตรเครดิต ICBC (ไทย) แอนี่ มาสเตอร์การ์ด แพลทินัม",
+  "network": "Mastercard Platinum",
+  "annualFee": 3000,
+  "feeNote": "บัตรเสริม 3,000 บาท; ฟรีปีแรก",
+  "minIncome": 15000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": 80,
+   "dining": 80,
+   "online": 80,
+   "overseas": 80,
+   "travel": 80,
+   "grocery": 80,
+   "fuel": 80
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Bangkok Airways FlyerBonus",
+   "KrisFlyer"
+  ],
+  "caps": "ICBC Everyday Rewards 1 บาท=1 คะแนน; โอนเป็นไมล์ Bangkok Airways FlyerBonus 40,000 คะแนน=500 ไมล์ (80 บาท/ไมล์), KrisFlyer 100,000 คะแนน=1,111 ไมล์ (~90 บาท/ไมล์); ไม่มี Royal Orchid Plus; เงินคืน 6% ช้อปออนไลน์ 500 บาทขึ้นไป (จำกัด 500 บาท/เดือน)",
+  "perks": [
+   "เงินคืน 6% ช้อปออนไลน์",
+   "DragonPass ลาวจน์ซื้อราคาพิเศษ 6 ครั้ง/ปี",
+   "ผ่อน 0% 3 เดือน"
+  ],
+  "url": "https://www.icbcthai.com/en/column/1035483201709551617.html",
+  "confidence": "medium",
+  "image": "img/icbc-any-mastercard-platinum.png"
+ },
+ {
+  "id": "icbc-shine-future-unionpay",
+  "bank": "ICBC",
+  "name": "ICBC Shine Future UnionPay",
+  "nameTh": "บัตรเครดิต ICBC (ไทย) ไชน์ ฟิวเจอร์ ยูเนียนเพย์",
+  "network": "UnionPay",
+  "annualFee": null,
+  "feeNote": "ไม่พบค่าธรรมเนียมแยกในตารางค่าธรรมเนียมอย่างเป็นทางการ",
+  "minIncome": 15000,
+  "inviteOnly": true,
+  "reward": "points",
+  "earn": {
+   "base": 80,
+   "dining": 80,
+   "online": 80,
+   "overseas": 80,
+   "travel": 80,
+   "grocery": 80,
+   "fuel": 80
+  },
+  "cashback": null,
+  "milesPartners": [
+   "Bangkok Airways FlyerBonus",
+   "KrisFlyer"
+  ],
+  "caps": "เฉพาะลูกค้าซื้อโซลาร์เซลล์กับร้านค้าร่วมรายการ; ไม่มีบัตรเสริม; 1 บาท=1 คะแนน, 1 หยวน=5 คะแนน; ผ่อน 0% 3/6/10 เดือนเฉพาะโซลาร์เซลล์",
+  "perks": [
+   "ผ่อน 0% สำหรับโซลาร์เซลล์"
+  ],
+  "url": "https://www.icbcthai.com/en/column/1221037460197322753.html",
+  "confidence": "low",
+  "image": "img/icbc-shine-future-unionpay.png"
  },
  {
   "id": "boc-great-wall-unionpay-platinum",
   "bank": "BOC",
   "name": "Great Wall International UnionPay Platinum",
-  "nameTh": null,
+  "nameTh": "บัตรเครดิตธนาคารแห่งประเทศจีน Great Wall International UnionPay แพลทินัม",
   "network": "UnionPay Platinum",
   "annualFee": 3500,
-  "feeNote": "ฟรีปีแรก; ฟรีปีถัดไปเมื่อใช้ 5 ครั้ง/ปี",
+  "feeNote": "บัตรเสริมค่าเท่ากัน; ฟรีปีแรก ฟรีปีถัดไปเมื่อใช้ 5 ครั้ง/ปี (ประกาศ 1 ก.ค. 2569)",
   "minIncome": 30000,
   "inviteOnly": false,
   "reward": "points",
@@ -2494,22 +4659,24 @@ window.CARDS = [
   },
   "cashback": null,
   "milesPartners": [],
-  "caps": "ไม่พบโปรแกรมแปลงไมล์; ข้อมูลจากเว็บรอง อาจยกเลิกแล้ว",
+  "caps": "5 บาท (หรือ 1 หยวน)=1 คะแนน (แพลทินัม 2 คะแนน); แลกของรางวัล/เงินคืนเท่านั้น ไม่มีแลกไมล์ (365 Joyful Rewards)",
   "perks": [
    "บัญชีคู่ CNY/THB",
-   "ผ่อน 3/6/9 เดือน เมื่อซื้อ 3,000 บาทขึ้นไป"
+   "ผ่อน 3/6/9 เดือน เมื่อซื้อ 3,000 บาทขึ้นไป",
+   "ปลอดดอกเบี้ยสูงสุด 52 วัน"
   ],
-  "url": "https://www.checkraka.com/creditcard/บัตรเครดิต-Great-Wall-International-UnionPay-Platinum-Credit-Card-แบงค์ออฟไชน่า-Bank-of-China-1440656/",
-  "confidence": "low"
+  "url": "https://www.bankofchina.co.th/th-th/segment/personal-banking/bank-cards/great-wall-international-unionpay-credit-card.html",
+  "confidence": "high",
+  "image": "img/boc-great-wall-unionpay-platinum.jpg"
  },
  {
   "id": "boc-great-wall-unionpay-gold",
   "bank": "BOC",
   "name": "Great Wall International UnionPay Gold",
-  "nameTh": null,
+  "nameTh": "บัตรเครดิตธนาคารแห่งประเทศจีน Great Wall International UnionPay โกลด์",
   "network": "UnionPay Gold",
-  "annualFee": null,
-  "feeNote": null,
+  "annualFee": 1300,
+  "feeNote": "บัตรเสริมค่าเท่ากัน; ฟรีปีแรก ฟรีปีถัดไปเมื่อใช้ 5 ครั้ง/ปี (ประกาศ 1 ก.ค. 2569)",
   "minIncome": 18000,
   "inviteOnly": false,
   "reward": "points",
@@ -2524,22 +4691,24 @@ window.CARDS = [
   },
   "cashback": null,
   "milesPartners": [],
-  "caps": "ไม่พบโปรแกรมแปลงไมล์; ข้อมูลจากเว็บรอง อาจยกเลิกแล้ว",
+  "caps": "5 บาท (หรือ 1 หยวน)=1 คะแนน (แพลทินัม 2 คะแนน); แลกของรางวัล/เงินคืนเท่านั้น ไม่มีแลกไมล์ (365 Joyful Rewards)",
   "perks": [
    "บัญชีคู่ CNY/THB",
-   "ผ่อน 3/6/9 เดือน เมื่อซื้อ 3,000 บาทขึ้นไป"
+   "ผ่อน 3/6/9 เดือน เมื่อซื้อ 3,000 บาทขึ้นไป",
+   "ปลอดดอกเบี้ยสูงสุด 52 วัน"
   ],
-  "url": "https://www.checkraka.com/creditcard/บัตรเครดิต-Great-Wall-International-UnionPay-Platinum-Credit-Card-แบงค์ออฟไชน่า-Bank-of-China-1440656/",
-  "confidence": "low"
+  "url": "https://www.bankofchina.co.th/th-th/segment/personal-banking/bank-cards/great-wall-international-unionpay-credit-card.html",
+  "confidence": "high",
+  "image": "img/boc-great-wall-unionpay-gold.jpg"
  },
  {
   "id": "boc-great-wall-unionpay-classic",
   "bank": "BOC",
   "name": "Great Wall International UnionPay Classic",
-  "nameTh": null,
+  "nameTh": "บัตรเครดิตธนาคารแห่งประเทศจีน Great Wall International UnionPay คลาสสิก",
   "network": "UnionPay Classic",
-  "annualFee": null,
-  "feeNote": null,
+  "annualFee": 800,
+  "feeNote": "บัตรเสริมค่าเท่ากัน; ฟรีปีแรก ฟรีปีถัดไปเมื่อใช้ 5 ครั้ง/ปี (ประกาศ 1 ก.ค. 2569)",
   "minIncome": 18000,
   "inviteOnly": false,
   "reward": "points",
@@ -2554,12 +4723,107 @@ window.CARDS = [
   },
   "cashback": null,
   "milesPartners": [],
-  "caps": "ไม่พบโปรแกรมแปลงไมล์; ข้อมูลจากเว็บรอง อาจยกเลิกแล้ว",
+  "caps": "5 บาท (หรือ 1 หยวน)=1 คะแนน (แพลทินัม 2 คะแนน); แลกของรางวัล/เงินคืนเท่านั้น ไม่มีแลกไมล์ (365 Joyful Rewards)",
   "perks": [
    "บัญชีคู่ CNY/THB",
-   "ผ่อน 3/6/9 เดือน เมื่อซื้อ 3,000 บาทขึ้นไป"
+   "ผ่อน 3/6/9 เดือน เมื่อซื้อ 3,000 บาทขึ้นไป",
+   "ปลอดดอกเบี้ยสูงสุด 52 วัน"
   ],
-  "url": "https://www.checkraka.com/creditcard/บัตรเครดิต-Great-Wall-International-UnionPay-Platinum-Credit-Card-แบงค์ออฟไชน่า-Bank-of-China-1440656/",
-  "confidence": "low"
+  "url": "https://www.bankofchina.co.th/th-th/segment/personal-banking/bank-cards/great-wall-international-unionpay-credit-card.html",
+  "confidence": "medium",
+  "image": "img/boc-great-wall-unionpay-classic.jpg"
+ },
+ {
+  "id": "boc-great-wall-mastercard-platinum",
+  "bank": "BOC",
+  "name": "Great Wall International Mastercard Platinum",
+  "nameTh": "บัตรเครดิตธนาคารแห่งประเทศจีน Great Wall International Mastercard แพลทินัม",
+  "network": "Mastercard Platinum",
+  "annualFee": 3500,
+  "feeNote": "บัตรเสริมค่าเท่ากัน; ฟรีปีแรก ฟรีปีถัดไปเมื่อใช้ 5 ครั้ง/ปี (ประกาศ 1 ก.ค. 2569)",
+  "minIncome": 30000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [],
+  "caps": "5 บาท (หรือ 1 หยวน)=1 คะแนน (แพลทินัม 2 คะแนน); แลกของรางวัล/เงินคืนเท่านั้น ไม่มีแลกไมล์ (365 Joyful Rewards)",
+  "perks": [
+   "ผ่อน 3/6/9 เดือน เมื่อซื้อ 3,000 บาทขึ้นไป",
+   "ปลอดดอกเบี้ยสูงสุด 52 วัน"
+  ],
+  "url": "https://www.bankofchina.co.th/th-th/segment/personal-banking/bank-cards/great-wall-international-mastercard-credit-card.html",
+  "confidence": "high",
+  "image": "img/boc-great-wall-mastercard-platinum.jpg"
+ },
+ {
+  "id": "boc-great-wall-mastercard-gold",
+  "bank": "BOC",
+  "name": "Great Wall International Mastercard Gold",
+  "nameTh": "บัตรเครดิตธนาคารแห่งประเทศจีน Great Wall International Mastercard โกลด์",
+  "network": "Mastercard Gold",
+  "annualFee": 1300,
+  "feeNote": "บัตรเสริมค่าเท่ากัน; ฟรีปีแรก ฟรีปีถัดไปเมื่อใช้ 5 ครั้ง/ปี (ประกาศ 1 ก.ค. 2569)",
+  "minIncome": 18000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [],
+  "caps": "5 บาท (หรือ 1 หยวน)=1 คะแนน (แพลทินัม 2 คะแนน); แลกของรางวัล/เงินคืนเท่านั้น ไม่มีแลกไมล์ (365 Joyful Rewards)",
+  "perks": [
+   "ผ่อน 3/6/9 เดือน เมื่อซื้อ 3,000 บาทขึ้นไป",
+   "ปลอดดอกเบี้ยสูงสุด 52 วัน"
+  ],
+  "url": "https://www.bankofchina.co.th/th-th/segment/personal-banking/bank-cards/great-wall-international-mastercard-credit-card.html",
+  "confidence": "high",
+  "image": "img/boc-great-wall-mastercard-gold.jpg"
+ },
+ {
+  "id": "boc-great-wall-mastercard-classic",
+  "bank": "BOC",
+  "name": "Great Wall International Mastercard Classic",
+  "nameTh": "บัตรเครดิตธนาคารแห่งประเทศจีน Great Wall International Mastercard คลาสสิก",
+  "network": "Mastercard Classic",
+  "annualFee": 800,
+  "feeNote": "บัตรเสริมค่าเท่ากัน; ฟรีปีแรก ฟรีปีถัดไปเมื่อใช้ 5 ครั้ง/ปี (ประกาศ 1 ก.ค. 2569)",
+  "minIncome": 18000,
+  "inviteOnly": false,
+  "reward": "points",
+  "earn": {
+   "base": null,
+   "dining": null,
+   "online": null,
+   "overseas": null,
+   "travel": null,
+   "grocery": null,
+   "fuel": null
+  },
+  "cashback": null,
+  "milesPartners": [],
+  "caps": "5 บาท (หรือ 1 หยวน)=1 คะแนน (แพลทินัม 2 คะแนน); แลกของรางวัล/เงินคืนเท่านั้น ไม่มีแลกไมล์ (365 Joyful Rewards)",
+  "perks": [
+   "ผ่อน 3/6/9 เดือน เมื่อซื้อ 3,000 บาทขึ้นไป",
+   "ปลอดดอกเบี้ยสูงสุด 52 วัน"
+  ],
+  "url": "https://www.bankofchina.co.th/th-th/segment/personal-banking/bank-cards/great-wall-international-mastercard-credit-card.html",
+  "confidence": "medium",
+  "image": "img/boc-great-wall-mastercard-classic.jpg"
  }
 ];
