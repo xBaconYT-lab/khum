@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>คุ้ม — บัตรไหนได้ไมล์มากสุด</title>
+<meta name="description" content="ใส่ยอดใช้จ่ายรายเดือนแยกหมวด แล้วดูว่าบัตรเครดิตไทยใบไหนได้ไมล์มากที่สุด">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#results">ข้ามไปที่ผลลัพธ์</a>
+
+<header class="top">
+  <div class="wrap">
+    <p class="mark">คุ้ม<span>.</span></p>
+    <h1>ใช้จ่ายแบบนี้<br>บัตรไหนได้ไมล์มากสุด</h1>
+    <p class="lede">กรอกยอดต่อเดือนแยกตามหมวด ระบบเทียบบัตรเครดิตจาก 11 ธนาคารให้ทันที</p>
+  </div>
+</header>
+
+<main class="wrap layout">
+  <form id="spend" class="panel" autocomplete="off" onsubmit="return false">
+    <fieldset>
+      <legend>ยอดใช้จ่ายต่อเดือน <span class="unit">บาท</span></legend>
+      <div id="cats"></div>
+      <p class="total">รวม <strong id="total">0</strong> บาท/เดือน</p>
+    </fieldset>
+
+    <fieldset>
+      <legend>คัดกรอง</legend>
+      <label class="row" for="income">
+        <span>รายได้ต่อเดือน</span>
+        <input id="income" type="text" inputmode="numeric" placeholder="ไม่ระบุ">
+      </label>
+      <div class="row">
+        <span id="feeLabel">ค่าธรรมเนียมรายปี</span>
+        <div class="seg" role="radiogroup" aria-labelledby="feeLabel">
+          <label><input type="radio" name="fee" value="any" checked><span>ทั้งหมด</span></label>
+          <label><input type="radio" name="fee" value="0"><span>ฟรี</span></label>
+          <label><input type="radio" name="fee" value="5000"><span>≤ 5,000</span></label>
+        </div>
+      </div>
+      <div class="banks" id="banks" role="group" aria-label="ธนาคาร"></div>
+    </fieldset>
+  </form>
+
+  <section id="results" class="results" aria-live="polite" tabindex="-1">
+    <div class="results-head">
+      <h2>อันดับไมล์ต่อปี</h2>
+      <p id="meta" class="muted"></p>
+    </div>
+    <ol id="list" class="list"></ol>
+    <details id="nomiles" class="nomiles">
+      <summary></summary>
+      <ol id="list2" class="list"></ol>
+    </details>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <p>ข้อมูลรวบรวมจากเว็บไซต์ธนาคาร ณ พฤศจิกายน 2569 · อัตราอาจเปลี่ยนและมีเพดานต่อเดือน ตรวจเงื่อนไขกับธนาคารก่อนสมัคร</p>
+</footer>
+
+<script src="cards.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
